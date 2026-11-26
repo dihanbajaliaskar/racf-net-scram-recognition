@@ -1,130 +1,147 @@
-# RACF-Net: Reliability-Aware Cooperative Fusion for Retrospective SCRAM Recognition
+<h1 align="center">RACF-Net</h1>
 
-Data, code and results of an experimental study on recognising reactor SCRAM events (rapid emergency shutdowns)
-at U.S. commercial nuclear power plants from daily operational records. The task is retrospective: for every
-reactor and report date, a model decides whether a documented SCRAM occurred on the preceding calendar day.
-The repository contains six Jupyter notebooks that cover the complete pipeline, the result tables and all
-figures of the study. The raw input data are public and are not redistributed here; the Dataset section lists
-the sources and the exact files. The derived reactor-day archive, the split definitions and the event-level
-label file are included.
+<p align="center">
+  <b>Reliability-Aware Cooperative Fusion for Retrospective SCRAM Recognition at U.S. Nuclear Power Plants</b><br>
+  Data, notebooks, result tables and figures of an experimental study
+</p>
+
+<p align="center">
+  <img alt="Python 3.11" src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white"> <img alt="PyTorch 2.11.0" src="https://img.shields.io/badge/PyTorch-2.11.0-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"> <img alt="scikit-learn 1.8.0" src="https://img.shields.io/badge/scikit--learn-1.8.0-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"> <img alt="LightGBM 4.7.0" src="https://img.shields.io/badge/LightGBM-4.7.0-2E8B57?style=flat-square"> <img alt="CatBoost 1.2.10" src="https://img.shields.io/badge/CatBoost-1.2.10-FFCC00?style=flat-square"> <img alt="pandas 2.3.3" src="https://img.shields.io/badge/pandas-2.3.3-150458?style=flat-square&logo=pandas&logoColor=white"> <img alt="NumPy 2.3.5" src="https://img.shields.io/badge/NumPy-2.3.5-013243?style=flat-square&logo=numpy&logoColor=white"> <img alt="Matplotlib 3.10.9" src="https://img.shields.io/badge/Matplotlib-3.10.9-11557C?style=flat-square"> <img alt="JupyterLab 4.5.6" src="https://img.shields.io/badge/JupyterLab-4.5.6-F37626?style=flat-square&logo=jupyter&logoColor=white">
+</p>
+<p align="center">
+  <img alt="data NRC | NOAA NCEI | EIA" src="https://img.shields.io/badge/data-NRC_%7C_NOAA_NCEI_%7C_EIA-0B5394?style=flat-square"> <img alt="reactor-days 242,605" src="https://img.shields.io/badge/reactor--days-242%2C605-555555?style=flat-square"> <img alt="period 2019–2025" src="https://img.shields.io/badge/period-2019%E2%80%932025-555555?style=flat-square"> <img alt="SCRAM events 306" src="https://img.shields.io/badge/SCRAM_events-306-B22222?style=flat-square"> <img alt="notebooks 6" src="https://img.shields.io/badge/notebooks-6-6A5ACD?style=flat-square"> <img alt="figures 350 dpi" src="https://img.shields.io/badge/figures-350_dpi-6A5ACD?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="#overview">Overview</a> ·
+  <a href="#dataset">Dataset</a> ·
+  <a href="#methods">Methods</a> ·
+  <a href="#results">Results</a> ·
+  <a href="#software">Software</a> ·
+  <a href="#reproducing-the-analysis">Reproducing</a> ·
+  <a href="#data-and-code-availability">Availability</a>
+</p>
+
+---
 
 ## Overview
 
-The study asks which computational mechanisms make such recognition reliable. It builds an integrated archive
-of 242,605 reactor-day records for 2019–2025 from three public U.S. sources, defines a
-leakage-controlled protocol with 51 tabular predictors and seven-channel 30-day sequences, and compares a
-proposed architecture with 15 reference configurations under one common protocol.
+A SCRAM is a rapid emergency shutdown of a nuclear reactor. This study examines how reliably a SCRAM can be
+recognised afterwards from public operational records: for every reactor and report date, a model decides
+whether a documented SCRAM occurred on the preceding calendar day. The task is retrospective recognition; it is
+not a forecast of future events and not a plant safety function.
 
-**RACF-Net** (Reliability-Aware Cooperative Fusion Network) combines four elements: original and conditionally
-reconstructed observations, numerical agents that exchange expected values between related predictors, a shared
-temporal convolutional representation, and a LightGBM classification expert (Figure 2).
+The study contributes three things:
 
-<p align="center">
-  <img src="figures/2_RACF-Net_internal_architecture.png" width="620" alt="Internal architecture of RACF-Net">
-</p>
+1. **A documented data archive.** 242,605 reactor-day records of 101 U.S. reactors for 2019–2025,
+   assembled from records of the Nuclear Regulatory Commission (NRC), NOAA and the Energy Information
+   Administration (EIA), with 306 SCRAM events labelled from official documentation.
+2. **A leakage-controlled benchmark.** Chronological cohorts, time limits on every predictor, 15 reference
+   configurations, three training seeds, and paired bootstrap over physical sites with Holm correction.
+3. **A case study of architectural complexity.** RACF-Net combines conditional reconstruction of observations,
+   numerical agents, a shared temporal representation and a LightGBM classification expert. Its components are
+   removed one by one to measure what each contributes.
 
-Main findings on the 2023 test cohort (20,333 reactor-days, 42 SCRAM-positive days, 50 sites, three training seeds):
+### Main findings
 
-- RACF-Net reaches AP = 0.9103 ± 0.0411, F1 = 0.9285 ± 0.0160 and MCC = 0.9295 ± 0.0152 and misses one of the 42 SCRAM-positive days.
-- A plain LightGBM classifier on the 51 predictors has a higher AP (0.9567). No AP advantage of RACF-Net over any
-  comparator is supported after Holm correction.
+On the 2023 test cohort (20,333 reactor-days, 42 SCRAM-positive days, 50 sites, three training seeds):
+
+- RACF-Net reaches AP = 0.9103 ± 0.0411, F1 = 0.9285 ± 0.0160 and MCC = 0.9295 ± 0.0152 and misses one of the 42
+  SCRAM-positive days.
+- A plain LightGBM classifier on the 51 predictors has a higher AP (0.9567). No AP advantage of RACF-Net over
+  any comparator is supported after Holm correction.
 - Among the three primary matched comparisons, the F1 and MCC gains are significant only against the matched
-  temporal convolutional network (F1 difference +0.050, 95% CI
-  [0.016; 0.085], Holm-adjusted p = 0.027).
+  temporal convolutional network (F1 difference +0.050, 95% CI [0.016; 0.085],
+  Holm-adjusted p = 0.027).
 - Conditional reconstruction gives a modest numerical benefit. Numerical agents and the exchange between them
   contribute inconsistently, and no component effect is supported after Holm correction.
 
-The results favour reliable power measurements, a strict evaluation protocol and strong baselines over
-architectural complexity. The study does not address forecasting of future events or reactor control.
+The evidence favours reliable power measurements, a strict evaluation protocol and strong baselines over
+architectural complexity.
 
 ## Dataset
 
-All inputs are public records of three U.S. federal agencies: the Nuclear Regulatory Commission (NRC), the
-National Centers for Environmental Information of NOAA, and the Energy Information Administration (EIA). The
-files are not copied into this repository. The study used the versions retrieved on 11 October 2026 (the 2026
-extension on 12 October 2026).
+### At a glance
 
-| Source | Provider | Content used | Period | Files, size | Expected location | Original source |
-| :--- | :--- | :--- | :--- | ---: | :--- | :--- |
-| Power Reactor Status Reports | NRC | Daily reactor power, per cent of rated power, for every unit | 2019–2025 | 7 yearly text files and a data dictionary, 8.8 MiB | `dataset/Raw/NRC_Power_Status/` | [nrc.gov, power reactor status reports](https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/power-reactor-status-reports/) |
-| SCRAM event notification data set | NRC | Curated register of SCRAM events: date, docket, automatic or manual actuation, retraction flag | 2019–2025 | 1 workbook and a data dictionary | `dataset/Raw/NRC_Scrams/` | [nrc.gov, data set (xlsx)](https://www.nrc.gov/sites/default/files/doc_library/cdn/legacy/reactors/operating/dataset/scram-event-notifications.xlsx) |
-| Event Notification Reports | NRC | Daily reports with structured fields: event number, unit, SCRAM code, reactor criticality and reported power | 2019–2025 | 1,852 daily HTML reports, 190 MiB | `dataset/Raw/NRC_Scrams/Event_Notifications/<year>/` | [nrc.gov, event notification reports](https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/) |
-| Operating and decommissioning reactor lists | NRC | Docket numbers, unit names, reactor type and shutdown dates | current at retrieval | 2 workbooks and 2 data dictionaries | `dataset/Raw/NRC_Reactors/` | [nrc.gov, NRC data sets](https://www.nrc.gov/documents-reports/nrc-data) |
-| Global Surface Summary of the Day (GSOD) | NOAA NCEI | Daily temperature, dew point, pressure, wind speed and precipitation at the two stations nearest to each site | 2019–2025 | 751 station-year CSV files, the station list and the format description, 61 MiB | `dataset/Raw/NOAA_GSOD/<year>/<station>.csv` | [ncei.noaa.gov, GSOD](https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/) |
-| Form EIA-860 | EIA | Annual generator-level records of nuclear plants: capacity and first operating year | report years 2018–2025 | 8 ZIP archives, 157 MiB | `dataset/Raw/EIA_860/eia860<year>.zip` | [eia.gov, Form EIA-860](https://www.eia.gov/electricity/data/eia860/) |
-| 2026 extension | NRC | Power status and event notification reports for the retrospective evaluation | 1 Jan–30 Sep 2026 | 199 files, 22 MiB | `dataset/External/NRC2026/Raw/` | same NRC pages as above |
+| Quantity | Value |
+| :--- | :--- |
+| Unit of analysis | one reactor on one report date (reactor-day) |
+| Period | 1 January 2019 to 31 December 2025 |
+| Reactor-day records | 242,605 |
+| Reactors | 101 (67 pressurised-water, 34 boiling-water) |
+| Physical sites | 58 |
+| Documented SCRAM events | 306 (187 automatic, 119 manual) |
+| SCRAM-positive reactor-days | 303 |
+| Control reactor-days | 210,126 |
+| Unlabelled reactor-days | 32,176 |
+| Predictors | 51 tabular features and a 7-channel, 30-day sequence |
+| Additional cohort | 25,935 reactor-days, 95 reactors, 1 January to 30 September 2026 |
 
-### Obtaining the files
+Of the 242,605 records, 210,721 report high power, 13,010 reduced power and 18,874 zero power.
 
-[`dataset/Manifests/dataset_manifest.csv`](dataset/Manifests/dataset_manifest.csv) lists every raw file of the
-study: 2,627 files, 418 MiB. Each row gives the relative path below `dataset/`, the source URL, the retrieval
-time, the size and the SHA-256 digest. [`dataset/External/NRC2026/source_manifest.json`](dataset/External/NRC2026/source_manifest.json)
-does the same for the 2026 extension. The commands in [Reproducing the analysis](#reproducing-the-analysis)
-download every listed file to its path, which reproduces the directory structure used in the study:
+### Sources
 
-```text
-dataset/
-  Manifests/dataset_manifest.csv            file list with URLs and digests (included)
-  Manifests/weather_acquisition_scope.csv   GSOD stations selected for each site (included)
-  External/NRC2026/source_manifest.json     file list of the 2026 extension (included)
-  Raw/NRC_Power_Status/power_status_<year>.txt
-  Raw/NRC_Reactors/reactors-operating.xlsx, reactors-decommissioning.xlsx
-  Raw/NRC_Scrams/scram-event-notifications.xlsx
-  Raw/NRC_Scrams/Event_Notifications/<year>/<date>en.html
-  Raw/NOAA_GSOD/<year>/<station>.csv
-  Raw/EIA_860/eia860<year>.zip
-  External/NRC2026/Raw/power_status_2026.txt
-  External/NRC2026/Raw/Event_Notifications/<date>en.html
-```
+All inputs are public records of three U.S. federal agencies. The study uses the versions retrieved on
+11 October 2026 (the 2026 extension on 12 October 2026).
 
-The digests show whether a downloaded file equals the version used in the study. The providers revise their
-archives, so a file retrieved later can differ. In a test on a sample of files on 26 November 2026 the workbooks, text files, CSV
-files and ZIP archives were returned with matching digests. The HTML report pages of nrc.gov differed from the
-stored copies in the page template (navigation and style sheets) while the reports themselves are archived
-documents; notebook 01 was verified with the copies retrieved in October 2026.
+| Source | Provider | Content used | Period | Files |
+| :--- | :--- | :--- | :--- | :--- |
+| [Power Reactor Status Reports](https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/power-reactor-status-reports/) | NRC | Daily reactor power of every unit, per cent of rated power | 2019–2025 | 7 yearly text files, 9 MiB |
+| [SCRAM event notification data set](https://www.nrc.gov/sites/default/files/doc_library/cdn/legacy/reactors/operating/dataset/scram-event-notifications.xlsx) | NRC | Curated register of SCRAM events: date, docket, automatic or manual actuation, retraction flag | 2019–2025 | 1 workbook |
+| [Event Notification Reports](https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/) | NRC | Daily reports with structured fields: event number, unit, SCRAM code, reactor criticality, reported power | 2019–2025 | 1,852 HTML reports, 191 MiB |
+| [Operating and decommissioning reactor lists](https://www.nrc.gov/documents-reports/nrc-data) | NRC | Docket numbers, unit names, reactor type, shutdown dates | state at retrieval | 2 workbooks |
+| [Global Surface Summary of the Day](https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/) | NOAA NCEI | Daily temperature, dew point, pressure, wind speed and precipitation | 2019–2025 | 751 station-year CSV files, 61 MiB |
+| [Form EIA-860](https://www.eia.gov/electricity/data/eia860/) | EIA | Generator-level records of nuclear plants: nameplate capacity, first operating year, coordinates | report years 2018–2025 | 8 ZIP archives, 157 MiB |
+| 2026 extension (same NRC collections) | NRC | Power status and event notification reports for the retrospective evaluation | 1 Jan–30 Sep 2026 | 199 files, 22 MiB |
 
-### Derived data included in the repository
-
-| Location | Content | Produced by |
-| :--- | :--- | :--- |
-| `dataset/Processed/` | Seven harmonised tables: the merged reactor-day table `nrc_power_weather.parquet` (242,605 records), confirmed events, structured notifications, station-day weather, site-year EIA attributes, reactor and station crosswalks | notebook 01 |
-| `dataset/Interim/` | Labelled reactor-days of the four periods (2019-2022, 2023, 2024, 2025) | notebook 01 |
-| `dataset/Features/` | `features_raw.parquet` (242,605 rows, 51 predictors), `observation_metadata.parquet` (label, eligibility, identifiers, episode and site), `feature_schema.json`, `feature_dictionary.csv` | notebook 02 |
-| `dataset/Features/racf_20261012/confirmation_2026/` | The 2026 cohort (25,935 reactor-days): predictors, metadata, 30-day sequences and evaluation indices | preparation of the retrospective evaluation |
-| `dataset/Splits/` | Row indices of every training and evaluation partition and the assignment of sites to the held-out group | notebook 02 |
-| `dataset/label_provenance_events.csv` | One row for each of the 306 SCRAM events: source of confirmation, actuation type, retraction flag, label day, cohort and reported power around the event | notebook 05 |
-| `dataset/SHA256SUMS.txt` | SHA-256 digests of all derived files listed above | |
-
-The 30-day sequence array of the main archive (`dataset/Features/sequences_raw.npy`, 242,605 x 7 x 30 values,
-204 MB) exceeds the file size limit of GitHub and is not stored. Notebook 02 rebuilds it from the included
-tables in about one minute. With the derived data in place, notebooks 02 to 04 run without the raw files; the
-raw files are needed only for notebook 01.
+Weather is taken from stations of the NOAA Global Surface Summary of the Day. For each of 60 plant locations the
+two nearest stations were retrieved (111 stations in total), and one eligible station per location was
+selected using the coverage of its record ([`plant_station_crosswalk.csv`](dataset/Processed/plant_station_crosswalk.csv)).
 
 The source files are works of U.S. federal agencies. Reuse is governed by the terms of the respective provider;
 please cite NRC, NOAA NCEI and EIA when the data are used.
 
-### How the data are used
+### Labels
 
-- **Unit of analysis.** One record is one reactor on one report date. The archive covers 101 reactors at
-  58 physical sites.
-- **Target.** A reactor-day is positive when a SCRAM is documented for the same reactor on the preceding calendar
-  day, either in the NRC SCRAM register or in a structured event notification. Power changes are never used to
-  assign a positive label. The archive contains 303 positive days.
-- **Controls.** A reactor-day is a control when the seven-day power range does not exceed 2 percentage points and
-  the day lies outside a window of seven days around any confirmed or possible SCRAM. All other days stay
-  unlabelled and are excluded (32,176 records). The share of positive days in the labelled
-  cohort is therefore not an estimate of the SCRAM frequency of the fleet.
-- **Predictors.** 51 numerical features: 21 describe reactor power and its dynamics, 22 describe weather and
-  observation quality, 8 describe the site and the calendar. The temporal input has seven channels (power, daily
-  power change, temperature, dew point, pressure, wind, precipitation) over 30 days. SCRAM codes, event numbers
-  and the power values quoted in notifications serve only for labelling and never enter a model.
-- **Information boundaries.** Weather is taken with a three-day lag and EIA attributes with a two-year lag.
-  Missing measurements stay missing and are accompanied by availability indicators. Preprocessing parameters are
+- **Positive.** A reactor-day is positive when a SCRAM is documented for the same reactor on the preceding
+  calendar day. Of the 306 events, 272 are confirmed by the NRC SCRAM register and 34 only by a
+  structured event notification; 5 register entries carry a retraction flag. A change of reactor power is never
+  used to assign a positive label. The archive contains 303 positive reactor-days.
+- **Control.** Two kinds of reactor-days serve as controls: days of a stable regime, in which the seven-day
+  power range does not exceed 2 percentage points and which lie outside a window of seven days around any
+  confirmed or possible SCRAM (208,861 days), and days with a documented event notification that is not a
+  SCRAM (1,265 days).
+- **Unlabelled.** All other days are excluded from fitting and evaluation (32,176 records). The share of
+  positive days in the labelled cohort is therefore not an estimate of the SCRAM frequency of the fleet.
+
+[`label_provenance_events.csv`](dataset/label_provenance_events.csv) documents every event: source of
+confirmation, actuation type, retraction flag, label day, cohort and the reported power before, on and after the
+event day.
+
+### Predictors
+
+| Group | Features | Content |
+| :--- | ---: | :--- |
+| Power level and temporal dynamics | 21 | reported power, changes over 1 to 14 days, rolling mean, standard deviation, minimum and range over 7, 14 and 30 days, consecutive zero-power days, days since the last change |
+| Weather and observation quality | 22 | temperature, dew point, pressure, wind speed and precipitation with 7-day means, missing-value indicators and observation age; share of missing weather; distance to the station |
+| Physical and calendar context | 8 | reactor type, site nameplate capacity, number of nuclear generators, site generation age, latitude and longitude, day of year (sine and cosine) |
+
+The temporal input holds 7 channels over 30 days: reactor power, daily power change, temperature, dew point,
+pressure, wind speed and precipitation. Three algebraically redundant power maxima were removed from an initial
+set of 54 features. [`feature_dictionary.csv`](dataset/Features/feature_dictionary.csv) lists every predictor
+with its unit.
+
+Information boundaries that prevent leakage:
+
+- Weather enters with a three-day lag and EIA attributes with a two-year lag.
+- SCRAM codes, event numbers and the power values quoted in notifications serve only for labelling and never
+  enter a model.
+- Missing measurements stay missing and are accompanied by availability indicators. Preprocessing parameters are
   estimated on the training part of each split only.
-- **Weather coverage.** NOAA stopped updating GSOD after 29 August 2025, so all weather channels are unavailable
-  for 36.4% of the 2025 reactor-days. The models receive this as missing input.
+- NOAA stopped updating the station records after 29 August 2025, so all weather channels are unavailable for
+  36.4% of the 2025 reactor-days. The models receive this as missing input.
 
-Composition of the archive by year ([`data_archive_composition.csv`](artifacts/data_archive_composition.csv)):
+### Composition by year
 
 | Year | Reactor-day records | Reactors | Sites | SCRAM-positive days | Control days | Unlabelled days | All weather unavailable, % |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -139,28 +156,131 @@ Composition of the archive by year ([`data_archive_composition.csv`](artifacts/d
 
 ### Cohorts
 
-The common-protocol comparison uses three chronological cohorts
-([`data_cohorts_train_validation_test.csv`](artifacts/data_cohorts_train_validation_test.csv)). Every cohort starts
-30 days after 1 January because a full 30-day history is required.
+| Cohort | Role | Period | Reactor-days | SCRAM-positive days | Sites | Sites with a SCRAM |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| Train | model fitting | 2019-01-30 to 2021-12-31 | 87,425 | 133 | 57 | 48 |
+| Validation | selection, thresholds, calibration | 2022-01-31 to 2022-12-31 | 19,020 | 35 | 51 | 23 |
+| Test | final comparison | 2023-01-31 to 2023-12-31 | 20,333 | 42 | 50 | 27 |
 
-| Cohort | Period | Reactor-days | SCRAM-positive days | Physical sites | Sites with a SCRAM |
-| :--- | ---: | ---: | ---: | ---: | ---: |
-| Train | 2019-01-30 to 2021-12-31 | 87,425 | 133 | 57 | 48 |
-| Validation | 2022-01-31 to 2022-12-31 | 19,020 | 35 | 51 | 23 |
-| Test | 2023-01-31 to 2023-12-31 | 20,333 | 42 | 50 | 27 |
-
-Models are fitted on 2019–2021. Configurations, decision thresholds and probability calibration are chosen on
-2022. The 2023 cohort takes no part in fitting, selection or calibration. A separate retrospective evaluation applies the
+Every cohort starts 30 days after 1 January because a complete 30-day history is required. Models are fitted
+on 2019–2021; configurations, decision thresholds and probability calibration are chosen on 2022; the 2023
+cohort takes no part in fitting, selection or calibration. A separate retrospective evaluation applies the
 frozen models, with thresholds calibrated on 2024, to 2025 and to 1 January–30 September 2026 (37 and 13
 SCRAM-positive days). The outcomes of 2023, 2025 and 2026 had been inspected in earlier development runs of the
 proposed model, so none of these cohorts is an independent confirmation of RACF-Net.
+
+### Files in this repository
+
+The raw source files are not redistributed. The derived data are included:
+
+| File | Rows | Content |
+| :--- | ---: | :--- |
+| `dataset/Processed/nrc_power_weather.parquet` | 242,605 | Merged reactor-day table: date, unit, reactor and site identifiers, reactor type, reported power, daily change, operating regime, matched station, lagged weather |
+| `dataset/Processed/nrc_confirmed_reactor_events.parquet` | 306 | Confirmed SCRAM events with source, actuation type, retraction flag and label day |
+| `dataset/Processed/nrc_structured_notifications.parquet` | 1,698 | Structured fields of the event notifications that mention a reactor |
+| `dataset/Processed/noaa_gsod_station_days.parquet` | 252,383 | Station-day weather in SI units |
+| `dataset/Processed/eia_nuclear_site_year.parquet` | 449 | Site nameplate capacity, number of nuclear generators and first operating year by report year |
+| `dataset/Processed/*_crosswalk.csv` |  | Reactor identifiers across the NRC sources; weather station selected for each site with coverage statistics |
+| `dataset/Interim/*_observations.parquet` |  | Labelled reactor-days of 2019–2022, 2023, 2024 and 2025 |
+| `dataset/Features/features_raw.parquet` | 242,605 | The 51 predictors, unscaled, missing values kept |
+| `dataset/Features/observation_metadata.parquet` | 242,605 | Label, eligibility, control type, episode, event and site identifiers of every reactor-day |
+| `dataset/Features/feature_dictionary.csv` | 51 | Group and unit of every predictor |
+| `dataset/Features/racf_20261012/confirmation_2026/` | 25,935 | The 2026 cohort: predictors, metadata, 30-day sequences, evaluation indices |
+| `dataset/Splits/` |  | Row indices of every training and evaluation partition; assignment of sites to the held-out group |
+| `dataset/label_provenance_events.csv` | 306 | One row per SCRAM event: source of confirmation, actuation type, retraction flag, label day, cohort, reported power around the event |
+| `dataset/SHA256SUMS.txt` |  | SHA-256 digests of the derived files |
+
+The 30-day sequence array of the main archive (`dataset/Features/sequences_raw.npy`, 242,605 x 7 x 30 values,
+204 MB) exceeds the file size limit of GitHub and is not stored. Notebook 02 rebuilds it from the included
+tables in about one minute.
+
+### Obtaining the raw files
+
+[`dataset/Manifests/dataset_manifest.csv`](dataset/Manifests/dataset_manifest.csv) lists every raw file of the
+study (2,627 files, 418 MiB) with its relative path below `dataset/`, source URL, retrieval time, size
+and SHA-256 digest. [`dataset/External/NRC2026/source_manifest.json`](dataset/External/NRC2026/source_manifest.json)
+does the same for the 2026 extension. The download command in
+[Reproducing the analysis](#reproducing-the-analysis) saves every file to its listed path and reproduces this
+directory structure:
+
+```text
+dataset/
+├── Manifests/                     file lists with URLs and digests, station selection (included)
+├── External/NRC2026/
+│   ├── source_manifest.json       file list of the 2026 extension (included)
+│   └── Raw/                       power status and event notification reports of 2026
+├── Raw/
+│   ├── NRC_Power_Status/          power_status_<year>.txt
+│   ├── NRC_Reactors/              reactors-operating.xlsx, reactors-decommissioning.xlsx
+│   ├── NRC_Scrams/                scram-event-notifications.xlsx, Event_Notifications/<year>/<date>en.html
+│   ├── NOAA_GSOD/                 <year>/<station>.csv
+│   └── EIA_860/                   eia860<year>.zip
+├── Processed/                     harmonised tables (included)
+├── Interim/                       labelled reactor-days by period (included)
+├── Features/                      predictors, metadata, 2026 cohort (included)
+├── Splits/                        partition indices (included)
+├── label_provenance_events.csv    event-level label provenance (included)
+└── SHA256SUMS.txt                 digests of the derived files (included)
+```
+
+The raw files are needed only for notebook 01. The providers revise their archives, so a file retrieved later
+can differ from the version used in the study; the digests make such differences visible. In a test on a sample
+of files on 26 November 2026 the workbooks, text files, CSV files and ZIP archives were returned with matching
+digests. The HTML report pages of nrc.gov differed from the stored copies in the page template (navigation and
+style sheets); notebook 01 was verified with the copies retrieved in October 2026.
+
+## Methods
+
+### RACF-Net
+
+<p align="center">
+  <img src="figures/2_RACF-Net_internal_architecture.png" width="640" alt="Internal architecture of RACF-Net">
+</p>
+
+RACF-Net (Reliability-Aware Cooperative Fusion Network) processes each reactor-day in four stages:
+
+1. **Conditional reconstruction.** Missing or doubtful power observations are reconstructed when a reliability
+   criterion is met; the original and the reconstructed views are both kept, together with quality indicators.
+2. **Numerical agents.** One agent per predictor (51 in total) estimates an expected value; in one exchange
+   round each agent receives the estimates of up to three related predictors.
+3. **Shared temporal representation.** A causal convolutional network encodes the 30-day, seven-channel
+   sequence.
+4. **Classification expert.** A LightGBM classifier receives the original and reconstructed features, quality
+   and action indicators, agent messages and the temporal representation, and returns the SCRAM score.
+
+### Compared methods
+
+| Group | Methods | Input |
+| :--- | :--- | :--- |
+| Reference rules | Majority class, power-drop rule, recent-level deviation | reported power |
+| Reference learners | Logistic regression, random forest, CatBoost, LightGBM | 51 predictors |
+| Modern comparators | MultiRocket, Hydra, Inception network and temporal convolutional network (TCN) with context features; TabM | 30-day sequences and 51 predictors |
+| Matched controls | CatBoost, LightGBM and TCN that receive the same prepared inputs as RACF-Net, without numerical agents | prepared inputs of RACF-Net |
+| Proposed | **RACF-Net** | 30-day sequences and 51 predictors |
+
+### Evaluation protocol
+
+- **Metrics.** Average precision (AP) of the scores; F1, Matthews correlation coefficient (MCC), precision,
+  recall, missed SCRAM days and false alarms per 1,000 control days at a threshold chosen on the 2022 cohort.
+- **Replication.** Every learned model is fitted with three training seeds (42, 137, 2026).
+- **Uncertainty.** Paired bootstrap over physical sites with 10,000 replicates; Holm correction within each
+  family of contrasts.
+- **Degraded inputs.** Six input conditions: original data, weather unavailable, 10% and 30% of power values
+  missing completely at random, and additive power noise with a standard deviation of 1 and 2 percentage points.
+- **Components.** Six variants of RACF-Net with one component removed, and inference-time interventions on the
+  agent outputs without refitting.
+- **Transfer.** A five-fold assessment in which the test sites are excluded from training.
+
+<p align="center">
+  <img src="figures/1_data_preparation_pipeline.png" width="560" alt="Data preparation sequence">
+</p>
 
 ## Results
 
 ### Common protocol, 2023 test cohort
 
-Mean ± SD over three training seeds; deterministic rules have one run. Source:
-[`test2023_all_models_summary.csv`](artifacts/test2023_all_models_summary.csv).
+Mean ± SD over three training seeds; deterministic rules have one run
+([`test2023_all_models_summary.csv`](artifacts/test2023_all_models_summary.csv)).
 
 | Method | Group | AP | F1 | MCC | False alarms per 1,000 control days | Missed SCRAM days (of 42) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -181,7 +301,7 @@ Mean ± SD over three training seeds; deterministic rules have one run. Source:
 | TCN + context | Modern | 0.9502 ± 0.0027 | 0.8992 ± 0.0045 | 0.9000 ± 0.0053 | 0.263 ± 0.124 | 3.33 ± 2.08 |
 | TabM | Modern | 0.9041 ± 0.0060 | 0.8974 ± 0.0105 | 0.8981 ± 0.0103 | 0.312 ± 0.075 | 2.67 ± 1.15 |
 
-Primary contrasts, RACF-Net minus matched control, paired bootstrap over physical sites with 10,000 replicates
+Primary contrasts, RACF-Net minus matched control
 ([`test2023_paired_site_bootstrap_contrasts.csv`](artifacts/test2023_paired_site_bootstrap_contrasts.csv)):
 
 | Comparator | Metric | RACF-Net | Comparator | Difference | 95% CI | Holm-adjusted p |
@@ -198,7 +318,7 @@ Primary contrasts, RACF-Net minus matched control, paired bootstrap over physica
 
 ### Degraded inputs
 
-Average precision under six input conditions, 2023 test cohort
+Average precision under the six input conditions
 ([`test2023_matched_models_ap_by_input_condition.csv`](artifacts/test2023_matched_models_ap_by_input_condition.csv)).
 Figure S8 extends this to graded levels of missing and noisy power values.
 
@@ -216,8 +336,8 @@ Figure S8 extends this to graded levels of missing and noisy power values.
 ### Components of RACF-Net
 
 Full model and six removals, mean over the six input conditions, 2023, training seed 42
-([`components2023_mean_metrics.csv`](artifacts/components2023_mean_metrics.csv)). No full-minus-removal contrast
-is supported after Holm correction
+([`components2023_mean_metrics.csv`](artifacts/components2023_mean_metrics.csv)). No full-minus-removal contrast is
+supported after Holm correction
 ([`components2023_paired_contrasts.csv`](artifacts/components2023_paired_contrasts.csv)).
 
 | Variant | AP | F1 | MCC | Event recall | False alarms per 1,000 control days |
@@ -269,30 +389,59 @@ Frozen models, two years and six equally weighted input conditions, decisions at
   <img src="figures/8_paired_differences_in_mean_average_precision.png" width="560" alt="Paired differences in mean average precision, 2025-2026">
 </p>
 
+## Software
+
+| Library | Version | Use in the study |
+| :--- | :--- | :--- |
+| Python | 3.11 | Language |
+| NumPy | 2.3.5 | Arrays, random number generation, bootstrap resampling |
+| pandas | 2.3.3 | Tabular data, joins, aggregation |
+| pyarrow | 24.0.0 | Parquet input and output |
+| SciPy | 1.16.3 | Statistical functions, linear algebra, distribution distances |
+| scikit-learn | 1.8.0 | Logistic regression, random forest, preprocessing, calibration, metrics |
+| PyTorch | 2.11.0 | Temporal representation of RACF-Net, TCN and Inception networks |
+| LightGBM | 4.7.0 | Gradient-boosted trees; classification expert of RACF-Net; exact TreeSHAP attributions |
+| CatBoost | 1.2.10 | Gradient-boosted trees |
+| aeon | 1.6.0 | MultiRocket and Hydra transforms |
+| TabM | 0.0.3 | Parameter-efficient ensemble of multilayer perceptrons |
+| dcor | 0.7 | Distance correlation |
+| Matplotlib | 3.10.9 | All plots, 350 dpi, Times New Roman |
+| Beautiful Soup | 4.14.3 | Parsing of the NRC event notification reports |
+| openpyxl | 3.1.5 | Reading the NRC and EIA workbooks |
+| requests | 2.33.1 | Download of the raw files |
+| joblib, psutil, threadpoolctl, PyYAML |  | Model storage, resource measurement, thread control, configuration files |
+| JupyterLab | 4.5.6 | Execution environment |
+
+Exact versions are pinned in [`requirements.txt`](requirements.txt). The stored outputs were produced on macOS
+(Apple silicon) with PyTorch using the Metal backend.
+
 ## Repository structure
 
 ```text
-dataset/      derived reactor-day archive, split definitions, label provenance, checksums and source
-              manifests; the raw public files are downloaded by the user (see Dataset)
-notebooks/    six notebooks, 01 to 06, in execution order
-artifacts/    result tables (CSV) behind the tables and figures of the study, with their numbers
-figures/      figures 1-9 and S1-S8, numbered as in the study
+racf-net-scram-recognition/
+├── dataset/           derived reactor-day archive, split definitions, label provenance, checksums and
+│                      source manifests; the raw public files are downloaded by the user
+├── notebooks/         six notebooks, 01 to 06, in execution order
+├── artifacts/         result tables (CSV) behind the tables and figures of the study
+├── figures/           figures 1-9 and S1-S8, numbered as in the study
+├── requirements.txt   pinned package versions
+└── README.md
 ```
 
-## Notebooks
+### Notebooks
 
 | Notebook | Content | Inputs | Execution |
 | :--- | :--- | :--- | :--- |
-| `01_dataset_analysis_and_research_design` | Source reconciliation, reactor and site identifiers, weather and EIA matching, labels, control cohort, information boundaries | `dataset/` | Runs end to end from the raw files in about 3 min |
-| `02_feature_analysis_and_leakage_safe_preprocessing` | 51 predictors, dependence analysis, 30-day sequences, chronological and site-disjoint splits | outputs of 01 | Runs end to end from the included derived data in about 1 min |
-| `03_baseline_models_and_error_diagnostics` | Reference rules, logistic regression, random forest, CatBoost, LightGBM: search, repeated seeds, calibration, error analysis | outputs of 02 | Runs end to end in about 11 min; fits all reference models |
-| `04_modern_models_and_comparative_diagnostics` | MultiRocket, Hydra, Inception network and TCN with context features, and TabM | outputs of 02 and 03 | Fits all modern comparators; several hours on a laptop |
-| `05_proposed_model_development_and_ablations` | RACF-Net definition and training, matched controls, component removals, seed replication, common-protocol comparison, error structure, statistical power, graded degradation, unseen sites | outputs of 02 to 04 and trained checkpoints | Stored outputs of the original runs; re-execution needs the trained checkpoints and cached predictions of those runs (about 2 GB), which are not included |
-| `06_frozen_evaluation_statistics_and_publication_results` | Frozen evaluation on 2025 and 2026, site-clustered bootstrap, figures 4 to 8 | outputs of 05 and trained checkpoints | Stored outputs of the original runs; same requirement as notebook 05 |
+| [`01_dataset_analysis_and_research_design`](notebooks/01_dataset_analysis_and_research_design.ipynb) | Source reconciliation, reactor and site identifiers, weather and EIA matching, labels, control cohort, information boundaries | raw files | Runs end to end in about 3 min |
+| [`02_feature_analysis_and_leakage_safe_preprocessing`](notebooks/02_feature_analysis_and_leakage_safe_preprocessing.ipynb) | 51 predictors, dependence analysis, 30-day sequences, chronological and site-disjoint splits | included derived data | Runs end to end in about 1 min |
+| [`03_baseline_models_and_error_diagnostics`](notebooks/03_baseline_models_and_error_diagnostics.ipynb) | Reference rules, logistic regression, random forest, CatBoost, LightGBM: search, repeated seeds, calibration, error analysis | outputs of 02 | Runs end to end in about 11 min |
+| [`04_modern_models_and_comparative_diagnostics`](notebooks/04_modern_models_and_comparative_diagnostics.ipynb) | MultiRocket, Hydra, Inception network and TCN with context features, and TabM | outputs of 02 and 03 | Fits all modern comparators; several hours on a laptop |
+| [`05_proposed_model_development_and_ablations`](notebooks/05_proposed_model_development_and_ablations.ipynb) | RACF-Net definition and training, matched controls, component removals, seed replication, common-protocol comparison, error structure, statistical power, graded degradation, unseen sites | outputs of 02 to 04 and trained checkpoints | Stored outputs of the original runs; re-execution needs the trained checkpoints and cached predictions of those runs (about 2 GB), which are not included |
+| [`06_frozen_evaluation_statistics_and_publication_results`](notebooks/06_frozen_evaluation_statistics_and_publication_results.ipynb) | Frozen evaluation on 2025 and 2026, site-clustered bootstrap, figures 4 to 8 | outputs of 05 and trained checkpoints | Stored outputs of the original runs; same requirement as notebook 05 |
 
 Every notebook locates the repository root by the presence of `dataset/` and `notebooks/`. Files produced during
-execution (intermediate data, models, predictions, tables, figures) are written below `artifacts/` in
-sub-folders that are excluded from version control; the curated CSV files in `artifacts/` are not overwritten.
+execution are written below `artifacts/` and `dataset/` in sub-folders that are excluded from version control;
+the curated CSV files in `artifacts/` are not overwritten.
 
 ## Reproducing the analysis
 
@@ -306,10 +455,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. Download the raw data (needed only for notebook 01). The command reads the two file lists, saves every file under `dataset/` at the path
-   recorded in the list and compares its SHA-256 digest with the recorded one. Files that are already present
-   are not downloaded again, so the command can be repeated after an interruption. It transfers about 440 MiB
-   in 2,824 requests.
+2. Download the raw data (needed only for notebook 01). The command reads the two file lists, saves every file
+   under `dataset/` at the path recorded in the list and compares its SHA-256 digest with the recorded one. Files
+   that are already present are not downloaded again, so the command can be repeated after an interruption. It
+   transfers about 440 MiB in 2,824 requests.
 
 ```bash
 python - <<'PY'
@@ -341,10 +490,11 @@ print(f"{len(files)} files listed, {len(report)} to review in dataset/download_r
 PY
 ```
 
-   `dataset/download_report.csv` then lists the files that could not be retrieved or whose content differs
-   from the version used in the study. For the HTML report pages a difference is expected (see Dataset). A
-   file that could not be retrieved can be saved by hand from the address in the report to the path in the
-   report. On Windows, run the Python part of the command in a notebook cell opened in the project folder.
+   `dataset/download_report.csv` then lists the files that could not be retrieved or whose content differs from
+   the version used in the study. For the HTML report pages a difference is expected (see
+   [Obtaining the raw files](#obtaining-the-raw-files)). A file that could not be retrieved can be saved by hand
+   from the address in the report to the path in the report. On Windows, run the Python part of the command in a
+   notebook cell opened in the project folder.
 
 3. Start Jupyter and run the notebooks in numerical order (start with notebook 02 if the raw data were not
    downloaded):
@@ -353,11 +503,14 @@ PY
 jupyter lab
 ```
 
-Requirements: about 2 GB of free disk space for generated files, and the Times New Roman font, which the
-figure functions require. The stored outputs were produced on macOS (Apple silicon) with PyTorch using the
-Metal backend; on other hardware the neural models run on CPU and their metrics can differ in the last digits.
+Requirements: about 2 GB of free disk space for generated files, and the Times New Roman font, which the figure
+functions require. On hardware without the Metal backend the neural models run on CPU and their metrics can
+differ in the last digits.
 
 ## Figures
+
+<details>
+<summary>Figures 1–9 and S1–S8</summary>
 
 | Figure | File | Content |
 | :--- | :--- | :--- |
@@ -379,9 +532,14 @@ Metal backend; on other hardware the neural models run on CPU and their metrics 
 | S7 | [`S7_internal_validation_losses.png`](figures/S7_internal_validation_losses.png) | Internal validation losses used for selecting the number of training epochs, three seeds |
 | S8 | [`S8_graded_reactor_power_degradation.png`](figures/S8_graded_reactor_power_degradation.png) | Graded degradation of reactor-power inputs on the 2023 test cohort: missing values and additive noise |
 
+</details>
+
 Figures 1 and 2 are diagrams; all other figures are produced by the notebooks with Matplotlib at 350 dpi.
 
 ## Result tables
+
+<details>
+<summary>48 CSV files with the table or figure of the study they belong to</summary>
 
 | File | Table or figure of the study | Rows | Content |
 | :--- | :--- | ---: | :--- |
@@ -434,9 +592,9 @@ Figures 1 and 2 are diagrams; all other figures are produced by the notebooks wi
 | [`retrospective2025_annual_metrics.csv`](artifacts/retrospective2025_annual_metrics.csv) | Table S25 | 8 | AP, F1 and MCC for 2025, mean over six conditions |
 | [`retrospective2026_annual_metrics.csv`](artifacts/retrospective2026_annual_metrics.csv) | Table S25 | 8 | AP, F1 and MCC for 2026, mean over six conditions |
 
-## Data and code availability
+</details>
 
-The material that accompanies the study is organised as follows.
+## Data and code availability
 
 | Component | Location |
 | :--- | :--- |
@@ -449,15 +607,15 @@ The material that accompanies the study is organised as follows.
 
 ## Limitations
 
-- The task is retrospective recognition of an event that has already been recorded. The results say nothing about
-  forecasting or about plant safety systems.
+- The task is retrospective recognition of an event that has already been recorded. The results say nothing
+  about forecasting or about plant safety systems.
 - The 2023 test cohort contains 42 SCRAM-positive days. Differences of a few hundredths in AP, F1 or MCC lie
   below the minimum detectable effect of the paired site bootstrap
   ([`power2023_primary_contrasts.csv`](artifacts/power2023_primary_contrasts.csv)).
 - The configuration of RACF-Net was selected on 2022 data after the outcomes of 2023, 2025 and 2026 had been
   inspected in earlier development runs. The comparison of established methods is not affected by this.
-- Labels follow public NRC records. Five register entries carry a retraction flag, and 34 events are confirmed
-  only by structured notifications.
+- Labels follow public NRC records. 5 register entries carry a retraction flag, and 34 events are
+  confirmed only by structured notifications.
 - All data describe U.S. reactors. Transfer to other fleets and reporting systems was not examined.
 
 ## Citation
