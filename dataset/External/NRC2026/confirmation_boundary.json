@@ -1,0 +1,9 @@
+{
+  "source": "NRC",
+  "target_start": "2026-01-01",
+  "target_end": "2026-09-30",
+  "outcomes_examined_for_model_selection": false,
+  "scores_computed": false,
+  "weather_policy": "Preserve original GSOD source; unavailable weather remains explicitly missing/stale; no unvalidated SSOD substitution",
+  "raw_files": 199
+}

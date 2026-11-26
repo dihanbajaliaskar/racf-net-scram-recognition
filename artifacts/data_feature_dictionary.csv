@@ -1,0 +1,52 @@
+Group,Feature,Unit
+Power level and temporal dynamics,power_pct,% reported power
+Power level and temporal dynamics,delta_1d,percentage points
+Power level and temporal dynamics,delta_2d,percentage points
+Power level and temporal dynamics,delta_3d,percentage points
+Power level and temporal dynamics,delta_7d,percentage points
+Power level and temporal dynamics,delta_14d,percentage points
+Power level and temporal dynamics,power_mean_7d,% reported power
+Power level and temporal dynamics,power_std_7d,percentage points
+Power level and temporal dynamics,power_min_7d,% reported power
+Power level and temporal dynamics,power_range_7d,percentage points
+Power level and temporal dynamics,power_mean_14d,% reported power
+Power level and temporal dynamics,power_std_14d,percentage points
+Power level and temporal dynamics,power_min_14d,% reported power
+Power level and temporal dynamics,power_range_14d,percentage points
+Power level and temporal dynamics,power_mean_30d,% reported power
+Power level and temporal dynamics,power_std_30d,percentage points
+Power level and temporal dynamics,power_min_30d,% reported power
+Power level and temporal dynamics,power_range_30d,percentage points
+Power level and temporal dynamics,zero_run_days,days
+Power level and temporal dynamics,days_since_change,days
+Power level and temporal dynamics,power_window_fraction,dimensionless
+Weather and observation quality,temp_c,degrees C
+Weather and observation quality,temp_c_missing,0 / 1
+Weather and observation quality,temp_c_mean7d,degrees C
+Weather and observation quality,temp_c_age_days,days
+Weather and observation quality,dewpoint_c,degrees C
+Weather and observation quality,dewpoint_c_missing,0 / 1
+Weather and observation quality,dewpoint_c_mean7d,degrees C
+Weather and observation quality,dewpoint_c_age_days,days
+Weather and observation quality,pressure_hpa,hPa
+Weather and observation quality,pressure_hpa_missing,0 / 1
+Weather and observation quality,pressure_hpa_mean7d,hPa
+Weather and observation quality,pressure_hpa_age_days,days
+Weather and observation quality,wind_ms,m / s
+Weather and observation quality,wind_ms_missing,0 / 1
+Weather and observation quality,wind_ms_mean7d,m / s
+Weather and observation quality,wind_ms_age_days,days
+Weather and observation quality,precip_mm,mm
+Weather and observation quality,precip_mm_missing,0 / 1
+Weather and observation quality,precip_mm_mean7d,mm
+Weather and observation quality,precip_mm_age_days,days
+Weather and observation quality,weather_missing_fraction,dimensionless
+Weather and observation quality,station_distance_km,km
+Physical and calendar context,reactor_is_pwr,0 / 1
+Physical and calendar context,site_nameplate_mw,"MW, site total"
+Physical and calendar context,site_nuclear_generators,count
+Physical and calendar context,site_generation_age_years,years since first site generator
+Physical and calendar context,plant_lat,degrees
+Physical and calendar context,plant_lon,degrees
+Physical and calendar context,dayofyear_sin,dimensionless
+Physical and calendar context,dayofyear_cos,dimensionless

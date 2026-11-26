@@ -1,0 +1,8 @@
+Family,Metric,Comparator,Effect,Lower 95%,Upper 95%,p raw,Valid draws,Undefined draw fraction,Status,p Holm,Positive difference supported,Family size
+Primary AP,AP,parent,0.0,0.0,0.0,1.0,2000,0.0,Identity reference: retained model equals parent,1.0,False,7
+Primary AP,AP,no_agents,-0.007985730883134146,-0.02826141941882394,0.019945231070213773,0.5147426286856571,2000,0.0,Historical exploratory comparison,1.0,False,7
+Primary AP,AP,LightGBM,-0.004707224957423484,-0.03900263257951373,0.04277366519622264,0.8075962018990505,2000,0.0,Historical exploratory comparison,1.0,False,7
+Primary AP,AP,TCN,0.023531525867090286,-0.01212625190387886,0.06390583899629552,0.2108945527236382,2000,0.0,Historical exploratory comparison,1.0,False,7
+Primary AP,AP,CatBoost,0.016829779153450852,-0.028570480489967236,0.06262524690069127,0.4782608695652174,2000,0.0,Historical exploratory comparison,1.0,False,7
+Primary AP,AP,fixed_parent_no_agents,0.002130772389292712,-0.006922866360923238,0.010935774737701343,0.592703648175912,2000,0.0,Historical exploratory comparison,1.0,False,7
+Primary AP,AP,fixed_LightGBM_TCN,-0.011357651005428737,-0.04024413002896093,0.026859791127414663,0.5082458770614693,2000,0.0,Historical exploratory comparison,1.0,False,7

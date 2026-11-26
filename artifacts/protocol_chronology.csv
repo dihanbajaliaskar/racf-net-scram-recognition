@@ -1,0 +1,9 @@
+UTC time,Run,Event,Selection data,Outcomes already inspected
+2026-10-12 12:56,racf_20261012,Earlier RACF-Net architecture locked,Registered forward2022 screen plus mean AP across six development2023 scenarios; early-period losses retained.,2023 (used for selection); 2025 test cohort
+2026-10-12 13:09,racf_20261012,Thresholds frozen before the 2026 cohort,None (frozen),2023; 2025 test cohort
+2026-10-12 13:19,racf_20261012,2026 outcomes opened for evaluation only,None (evaluation only),2023; 2025; 2026 from this point
+2026-10-13 11:01,racf_20261013_102931,Development run of the final pipeline registered,2019–2021 fit; 2022 forward fold,"2023, 2025 and 2026 in earlier runs"
+2026-10-13 17:43,racf_focus_20261013_170443,Final RACF-Net and matched controls frozen,2022 cohort only (selected by the amended development-only rule),"2023, 2025 and 2026"
+2026-10-13 19:26,racf_components_20261014_002554,Component diagnostics registered,None (frozen architecture),"2023, 2025 and 2026"
+2026-11-12,racf_revision_20261112,"First supplementary analysis (three seeds, common protocol)",None (frozen configurations),"2023, 2025 and 2026"
+2026-11-25,racf_revision2_20261125,Second supplementary analysis (this section),None (frozen configurations),"2023, 2025 and 2026"

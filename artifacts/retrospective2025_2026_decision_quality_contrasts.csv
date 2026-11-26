@@ -1,0 +1,15 @@
+Family,Metric,Comparator,Effect,Lower 95%,Upper 95%,p raw,Valid draws,Undefined draw fraction,Status,p Holm,Positive difference supported,Family size
+Secondary decision quality,F1,parent,0.0,0.0,0.0,1.0,2000,0.0,Identity reference: retained model equals parent,1.0,False,14
+Secondary decision quality,F1,no_agents,0.016496658071470938,0.005865636470067645,0.028877732031356886,0.0074962518740629685,2000,0.0,Historical exploratory comparison,0.09745127436281859,False,14
+Secondary decision quality,F1,LightGBM,0.03750207776355674,0.009846002946897414,0.07425240222260125,0.02348825587206397,2000,0.0,Historical exploratory comparison,0.25837081459270367,False,14
+Secondary decision quality,F1,TCN,0.018618187788254525,-0.006543854033070612,0.044477761700871386,0.15892053973013492,2000,0.0,Historical exploratory comparison,1.0,False,14
+Secondary decision quality,F1,CatBoost,0.04556833626274015,-0.012425598144919628,0.09193928625081718,0.19290354822588707,2000,0.0,Historical exploratory comparison,1.0,False,14
+Secondary decision quality,F1,fixed_parent_no_agents,-0.0001017703143021409,-0.01918860334052934,0.017663785230811267,0.9870064967516242,2000,0.0,Historical exploratory comparison,1.0,False,14
+Secondary decision quality,F1,fixed_LightGBM_TCN,0.0034398825329393645,-0.01152079924386426,0.019432673935996306,0.6446776611694153,2000,0.0,Historical exploratory comparison,1.0,False,14
+Secondary decision quality,MCC,parent,0.0,0.0,0.0,1.0,2000,0.0,Identity reference: retained model equals parent,1.0,False,14
+Secondary decision quality,MCC,no_agents,0.016548374254066522,0.006526163364800333,0.02716739436943573,0.004497751124437781,2000,0.0,Historical exploratory comparison,0.06296851574212893,False,14
+Secondary decision quality,MCC,LightGBM,0.03629453565417551,0.01019699699788594,0.07000462970419487,0.019490254872563718,2000,0.0,Historical exploratory comparison,0.23388305847076463,False,14
+Secondary decision quality,MCC,TCN,0.01821989735599605,-0.005220362340907769,0.043264209273746315,0.14371859296482412,1989,0.0055,Historical exploratory comparison,1.0,False,14
+Secondary decision quality,MCC,CatBoost,0.038466399620357916,-0.012747139369461322,0.07685046805115427,0.19009504752376188,1998,0.001,Historical exploratory comparison,1.0,False,14
+Secondary decision quality,MCC,fixed_parent_no_agents,-0.0016669407169385142,-0.01818684964620232,0.014369821049134354,0.8569989929506546,1985,0.0075,Historical exploratory comparison,1.0,False,14
+Secondary decision quality,MCC,fixed_LightGBM_TCN,0.0025091317523407985,-0.011894838892011423,0.017596382569090883,0.707,1999,0.0005,Historical exploratory comparison,1.0,False,14

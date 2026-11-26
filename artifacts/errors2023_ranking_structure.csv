@@ -1,0 +1,7 @@
+Model (seed 42),AP,SCRAM days above every negative,Median negatives at or above a SCRAM day,Negatives above the 90%-recall cut-off,Of which documented non-SCRAM
+RACF-Net,0.930677930377397,12,1.0,3,3
+No inter-agent exchange,0.9396284238425454,17,1.5,2,2
+No numerical agents,0.9558179321002123,23,0.0,3,3
+No data recovery,0.9166970837194359,10,2.0,3,3
+Matched LightGBM,0.9289308414432624,16,2.0,4,4
+LightGBM,0.9567078422365924,25,0.0,3,3

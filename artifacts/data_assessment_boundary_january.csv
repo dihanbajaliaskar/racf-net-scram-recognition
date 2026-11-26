@@ -1,0 +1,7 @@
+Partition,First training day,Last training day,First assessed day,Window of first assessed day starts,"Labelled reactor-days, 1–30 January","SCRAM days, 1–30 January",SCRAM days assessed
+Forward 2020,2019-01-30,2019-12-31,2020-01-31,2020-01-02,2672,1,46
+Forward 2021,2019-01-30,2020-12-31,2021-01-31,2021-01-02,2708,1,36
+Forward 2022,2019-01-30,2021-12-31,2022-01-31,2022-01-02,2510,2,35
+Development 2023,2019-01-30,2022-12-31,2023-01-31,2023-01-02,2504,1,42
+Calibration 2024,2019-01-30,2023-12-31,2024-01-31,2024-01-02,2551,2,48
+Historical 2025,2019-01-30,2023-12-31,2025-01-31,2025-01-02,2635,1,37

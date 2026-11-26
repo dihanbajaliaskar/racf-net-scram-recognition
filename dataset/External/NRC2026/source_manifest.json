@@ -1,0 +1,1793 @@
+[
+  {
+    "path": "Raw/power_index_2026.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/power-reactor-status-reports/2026",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/power-reactor-status-reports/2026",
+    "bytes": 143096,
+    "sha256": "99adf92d874204cb25dee5c0fc88318c0b32cd6e4acfc9a96c3a35fdc1bd271b",
+    "retrieved_utc": "2026-10-12T09:50:56.636183+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/event_index_2026.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026",
+    "bytes": 129602,
+    "sha256": "bd4940268579156d1234ef1425cca7ede62f24e1c8bdd056b10f709a65a169a2",
+    "retrieved_utc": "2026-10-12T09:50:57.184670+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/power_status_2026.txt",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/power-reactor-status-reports/2026/2026PowerStatus.txt",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/power-reactor-status-reports/2026/2026PowerStatus.txt",
+    "bytes": 1011681,
+    "sha256": "f52a5035b558408bb36c184cd5b2aa7c1d38dd06dcbae7b7a7742c6b38a229d2",
+    "retrieved_utc": "2026-10-12T09:50:59.418786+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260102en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260102en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260102en",
+    "bytes": 103779,
+    "sha256": "965eba2a39f563005a629ed9ff5af98d9289f6d6a52dae2e01f58973a94eea5d",
+    "retrieved_utc": "2026-10-12T09:51:01.000951+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260105en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260105en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260105en",
+    "bytes": 100193,
+    "sha256": "39917294b07fe070bd6e9e0bf202db2cdb62882e102b48445fe7327d4a7796ea",
+    "retrieved_utc": "2026-10-12T09:51:01.328785+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260106en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260106en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260106en",
+    "bytes": 106687,
+    "sha256": "54f214f487be54d0a034127b7058ff70148eef5825e4fce381c78897467f4f23",
+    "retrieved_utc": "2026-10-12T09:51:01.364116+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260107en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260107en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260107en",
+    "bytes": 113018,
+    "sha256": "dc784db9d48a056c96e115d9451925d7e88204c59e34f3d459c21de63e52983b",
+    "retrieved_utc": "2026-10-12T09:51:02.657668+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260108en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260108en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260108en",
+    "bytes": 106270,
+    "sha256": "b4041e9a07e81c3db48ae4d572ce573f7f6f37c768fdca25cbfba4f0a9bb16b8",
+    "retrieved_utc": "2026-10-12T09:51:02.960111+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260109en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260109en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260109en",
+    "bytes": 107666,
+    "sha256": "5cc54dd1811d988df201ae601d700f78718c3da2ab85262dedf1f43a6f6fbc8c",
+    "retrieved_utc": "2026-10-12T09:51:02.979238+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260112en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260112en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260112en",
+    "bytes": 103044,
+    "sha256": "8657adbb0d2e2f3fa3a45b75bb35b4b476264024192a2cba71d78f0e437d5fd2",
+    "retrieved_utc": "2026-10-12T09:51:04.197476+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260113en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260113en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260113en",
+    "bytes": 106335,
+    "sha256": "d52f8595c38e318a3607d0cf0dc08749f8fc91fb9f95efacee71fb99c3d9962d",
+    "retrieved_utc": "2026-10-12T09:51:04.819669+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260114en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260114en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260114en",
+    "bytes": 106335,
+    "sha256": "f4b48a0d8f04a004e0dc6af4e220b4c453a2c2c0d4b8a64d1788da73c59c09f9",
+    "retrieved_utc": "2026-10-12T09:51:04.842240+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260115en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260115en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260115en",
+    "bytes": 107447,
+    "sha256": "6c120df9a775c7eb1c41fb25fc07036c0d953a28878363645b3cd1119de9aecd",
+    "retrieved_utc": "2026-10-12T09:51:05.844329+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260116en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260116en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260116en",
+    "bytes": 105577,
+    "sha256": "d56e5201e49a5c24478faa778251f6a253e0a43d95c3be341df155834b23a954",
+    "retrieved_utc": "2026-10-12T09:51:06.727530+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260120en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260120en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260120en",
+    "bytes": 113279,
+    "sha256": "3eee9ba9fa37442c91e24934dbb3194291efaaaf39e70064f7fca322412b26ed",
+    "retrieved_utc": "2026-10-12T09:51:06.518658+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260121en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260121en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260121en",
+    "bytes": 107037,
+    "sha256": "a6bc5c0360df14c3b8d33691c815cb1f0af788dc49c8fd415d86415daf8860d6",
+    "retrieved_utc": "2026-10-12T09:51:07.648507+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260123en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260123en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260123en",
+    "bytes": 118847,
+    "sha256": "8125a8aa8f7579cd16d90e8ca8a68e801b346c1b1e2bd8d3870d6c6a705e40e9",
+    "retrieved_utc": "2026-10-12T09:51:08.393850+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260126en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260126en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260126en",
+    "bytes": 109828,
+    "sha256": "4f947677d74f398bf7fe1c7b4afe05d980a2901ca54c2b90b2892000c8129aef",
+    "retrieved_utc": "2026-10-12T09:51:08.382149+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260127en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260127en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260127en",
+    "bytes": 104029,
+    "sha256": "d122088e2d0b00666e433cdcae02e3122ff86f36d9b58ac745d1b92aa246d75b",
+    "retrieved_utc": "2026-10-12T09:51:09.413479+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260128en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260128en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260128en",
+    "bytes": 106906,
+    "sha256": "56977b42ceb9186d7f5d8764f9a660d853985a820cab40bee24cec4deba4e247",
+    "retrieved_utc": "2026-10-12T09:51:09.890812+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260129en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260129en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260129en",
+    "bytes": 109460,
+    "sha256": "f5e306ea402f22e24098255bbf4869165e047c11d165a6fe158be87d87e3998b",
+    "retrieved_utc": "2026-10-12T09:51:10.184564+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260130en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260130en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260130en",
+    "bytes": 105368,
+    "sha256": "f1a6d624b45699f0a7a9ceef2ec963b6df92a41b00f583e9f4ca302e58091d04",
+    "retrieved_utc": "2026-10-12T09:51:11.247642+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260202en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260202en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260202en",
+    "bytes": 121273,
+    "sha256": "742cbe34efc4c1efdc517989df9cff2893379891d90edcdbcdce21cd0601dc87",
+    "retrieved_utc": "2026-10-12T09:51:11.478671+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260203en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260203en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260203en",
+    "bytes": 118489,
+    "sha256": "cc0cd25aa2f48c1f5ecf98a672d6e46686b1106bdb73898ef38c6b73c919aea5",
+    "retrieved_utc": "2026-10-12T09:51:11.909215+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260204en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260204en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260204en",
+    "bytes": 115756,
+    "sha256": "f06d0cbaf430651bf66800732a0348cb9666fec915c94f0335d0ac1bc3c0c3a1",
+    "retrieved_utc": "2026-10-12T09:51:13.029849+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260205en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260205en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260205en",
+    "bytes": 122935,
+    "sha256": "131b56c11b4458b869773971fcab6c1c7c54c96addb251f33a94745c02f3d79c",
+    "retrieved_utc": "2026-10-12T09:51:13.333145+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260206en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260206en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260206en",
+    "bytes": 123066,
+    "sha256": "f5017a75f3761e634f3fc1868691b6f16e23b346544801c180c767619e65a070",
+    "retrieved_utc": "2026-10-12T09:51:13.778170+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260209en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260209en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260209en",
+    "bytes": 124644,
+    "sha256": "7bfba6beb17b689c9666c8e05852a84966dcd95f6cc97644266abfee5cd6c760",
+    "retrieved_utc": "2026-10-12T09:51:14.735837+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260210en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260210en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260210en",
+    "bytes": 115898,
+    "sha256": "ab565f70663a88c509bd590bf00779f69cbc1f0452249d91b2f28f4234c41179",
+    "retrieved_utc": "2026-10-12T09:51:15.111236+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260211en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260211en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260211en",
+    "bytes": 107348,
+    "sha256": "3680c9dcd0e7963fde4e9999e5c7f8fcb74926ee0b820d955723f138215c530c",
+    "retrieved_utc": "2026-10-12T09:51:15.561027+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260212en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260212en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260212en",
+    "bytes": 115794,
+    "sha256": "56db214f30f87031bb2dd67c3125c783198cc9c1a1b7047f1b49d99942e3bf28",
+    "retrieved_utc": "2026-10-12T09:51:16.509207+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260213en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260213en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260213en",
+    "bytes": 120024,
+    "sha256": "5afc56434aa52c7865933fc0f19cb3583ef5797649fdd78cae75515070b9ef1a",
+    "retrieved_utc": "2026-10-12T09:51:16.763015+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260217en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260217en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260217en",
+    "bytes": 116265,
+    "sha256": "3369dc9e157865f11f617cb80f72c4837c8b02ed58b04b265de365f9bdc0e333",
+    "retrieved_utc": "2026-10-12T09:51:17.218660+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260218en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260218en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260218en",
+    "bytes": 107989,
+    "sha256": "9b1f15a02384a9392a3f1c53e5ff9c13b23b4e88dc85d0690b6a07dae8ebf485",
+    "retrieved_utc": "2026-10-12T09:51:18.131232+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260219en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260219en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260219en",
+    "bytes": 110216,
+    "sha256": "b1f4b55e584665a85ab6712790b04d145d8ff12b02ebf0c55b33e1c1daeb21c2",
+    "retrieved_utc": "2026-10-12T09:51:18.458219+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260220en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260220en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260220en",
+    "bytes": 102458,
+    "sha256": "0b8a13e70bf6e07d6e37462caa9fd80113261000d7670ee3cc4745bd67ff3d15",
+    "retrieved_utc": "2026-10-12T09:51:19.327966+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260223en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260223en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260223en",
+    "bytes": 104535,
+    "sha256": "6c4ef9036f28d1e292d4d41c5268630559fb60e8ac0cb2e26d1a266686214233",
+    "retrieved_utc": "2026-10-12T09:51:19.945455+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260224en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260224en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260224en",
+    "bytes": 109643,
+    "sha256": "e67dfd34b00323666f83c8bed598ad9ce71d58ef66d2c4b58b074ba33f2ff90d",
+    "retrieved_utc": "2026-10-12T09:51:20.518832+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260225en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260225en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260225en",
+    "bytes": 109643,
+    "sha256": "46880acc33dfce2f1edf994f57580efde9446c81f9354c7830b89b660f7dc28d",
+    "retrieved_utc": "2026-10-12T09:51:21.257908+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260226en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260226en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260226en",
+    "bytes": 104187,
+    "sha256": "73772fea591e0a40b81325ca26ae03dafea5768f8f49ba0e3fe1223024f6e313",
+    "retrieved_utc": "2026-10-12T09:51:21.776200+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260227en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260227en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260227en",
+    "bytes": 103368,
+    "sha256": "0f05a031e0329c23071d143cc3403f7006b861266ac3277400161a7625d94392",
+    "retrieved_utc": "2026-10-12T09:51:22.133888+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260302en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260302en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260302en",
+    "bytes": 117826,
+    "sha256": "c22f7cd62c0647319c617e984233bdaee54f8b150c242bea38963d75a0f73125",
+    "retrieved_utc": "2026-10-12T09:51:23.049928+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260303en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260303en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260303en",
+    "bytes": 115058,
+    "sha256": "bbd0ecc4623f6afb2f73cab22b33a54bbc7c1dcb3a5bb14f37efd5bb0bf7bd6d",
+    "retrieved_utc": "2026-10-12T09:51:23.538582+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260304en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260304en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260304en",
+    "bytes": 108907,
+    "sha256": "af8afc41a177e624ad5e7dbe676c39ad971c345b7cd4844d7d6bf7968c3944e7",
+    "retrieved_utc": "2026-10-12T09:51:23.955744+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260305en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260305en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260305en",
+    "bytes": 111003,
+    "sha256": "a8bc1cf7f46518861adde586e90be7fd177b40136e71adf4ec7ac7084d476840",
+    "retrieved_utc": "2026-10-12T09:51:24.629497+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260306en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260306en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260306en",
+    "bytes": 108676,
+    "sha256": "fa36ed6ea27f6e0d7a5e9615d9c3c3e561f371a801b9fa5ec50355fe0cf68fb0",
+    "retrieved_utc": "2026-10-12T09:51:25.231182+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260309en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260309en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260309en",
+    "bytes": 107405,
+    "sha256": "5bf6ea70440476fa24177fa4946e4e0008ae5730972c349c7e0d0efc4cc6d432",
+    "retrieved_utc": "2026-10-12T09:51:25.452808+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260310en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260310en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260310en",
+    "bytes": 111990,
+    "sha256": "2a38b4d31ee7f13e0d3cde6d3e75be00752d9e5120d0666d450d79a3cea0f01f",
+    "retrieved_utc": "2026-10-12T09:51:26.447378+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260311en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260311en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260311en",
+    "bytes": 114917,
+    "sha256": "d426152986fa74cefd8733d7e3cc13fb0bbcb0b617047577b0e977a7f06a11d2",
+    "retrieved_utc": "2026-10-12T09:51:27.167904+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260312en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260312en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260312en",
+    "bytes": 108519,
+    "sha256": "1111ad53159b8c5e702da94fb9080c65dc3bf7b1f7718a8e3f9aa62707db7981",
+    "retrieved_utc": "2026-10-12T09:51:27.138158+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260313en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260313en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260313en",
+    "bytes": 102822,
+    "sha256": "b68923c573799775e850526a9e0282884cdeeac3946a3a40e80c903565552d7a",
+    "retrieved_utc": "2026-10-12T09:51:30.261530+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260316en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260316en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260316en",
+    "bytes": 104242,
+    "sha256": "013079dfdd338356f7ed6ee292c3c31791d0559365f0457a63d406527a10316d",
+    "retrieved_utc": "2026-10-12T09:51:30.441800+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260317en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260317en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260317en",
+    "bytes": 105263,
+    "sha256": "d3bd6f7f62055c5ad6f3b9266da38ba4ba84ff343484f1a3b9d7e96dcd8e44e6",
+    "retrieved_utc": "2026-10-12T09:51:29.076708+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260318en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260318en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260318en",
+    "bytes": 114364,
+    "sha256": "7a413fbf6ac710049a63d4eee63c99a013ecf0af68aa22a105cb5186eb6ceda5",
+    "retrieved_utc": "2026-10-12T09:51:30.906750+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260319en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260319en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260319en",
+    "bytes": 117773,
+    "sha256": "1eb23a67e0539dc7f6a28edf552611dc83c4e7acb02164893494bc9c9df08876",
+    "retrieved_utc": "2026-10-12T09:51:32.095199+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260320en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260320en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260320en",
+    "bytes": 126232,
+    "sha256": "6e8410a6bcd8fe5556bf30fb83bb5a3d2075963b3232ce87259ade0a3b4bc9ba",
+    "retrieved_utc": "2026-10-12T09:51:32.092624+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260323en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260323en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260323en",
+    "bytes": 125110,
+    "sha256": "93ebc17909804c555d9c131a5c7c12e92015ddca2157129e4bd91248359c6909",
+    "retrieved_utc": "2026-10-12T09:51:32.874439+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260324en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260324en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260324en",
+    "bytes": 121050,
+    "sha256": "92fa88ad59c7eb5774dbd3c4a98de36adf4905336a7c03c04c6dc59fb15eb4e2",
+    "retrieved_utc": "2026-10-12T09:51:33.765371+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260325en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260325en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260325en",
+    "bytes": 119365,
+    "sha256": "56b26dad5e66f50c464884bbf0e5922ab29bbc81afa10f5a46c2e66d9cfbb5e0",
+    "retrieved_utc": "2026-10-12T09:51:34.029760+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260326en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260326en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260326en",
+    "bytes": 103227,
+    "sha256": "1a36b315948b9ca0a81cdc43d174b551a088a30d66664da693528d7caf1278f4",
+    "retrieved_utc": "2026-10-12T09:51:34.783732+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260327en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260327en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260327en",
+    "bytes": 108606,
+    "sha256": "4a8d32af6062d88dca39ff3b7c7dbc0dd30cf40da7f5423b093e8a06d7c97947",
+    "retrieved_utc": "2026-10-12T09:51:35.639633+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260330en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260330en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260330en",
+    "bytes": 110939,
+    "sha256": "6a6d55c3fa381a0db80ba4a8c96f228219780914e16beac91657e49dbeca93db",
+    "retrieved_utc": "2026-10-12T09:51:35.639440+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260331en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260331en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260331en",
+    "bytes": 102552,
+    "sha256": "9572905a78195ed8aa03a450d69a48dab4637aa3c0f49f3b002bd0dd806f94b7",
+    "retrieved_utc": "2026-10-12T09:51:36.573547+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260401en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260401en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260401en",
+    "bytes": 107280,
+    "sha256": "3d5b404a51856899c640424640b6cb9cf090c74da9991839699d41a296746a32",
+    "retrieved_utc": "2026-10-12T09:51:37.502074+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260402en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260402en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260402en",
+    "bytes": 116900,
+    "sha256": "c8fe415548893a91a3f96c70c46e5736301b1e5230558b08c8b592693ecb202e",
+    "retrieved_utc": "2026-10-12T09:51:37.557362+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260403en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260403en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260403en",
+    "bytes": 110421,
+    "sha256": "09bd08ae3fe97a68c2899a8ed715b3756dcbaf6d20746449c421dc4c6ba44562",
+    "retrieved_utc": "2026-10-12T09:51:38.135647+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260406en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260406en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260406en",
+    "bytes": 115163,
+    "sha256": "8f8278b9b05c0e3d6fd203dd6e52b8f7abded424f8d4f1f4d6fd727ace980bb5",
+    "retrieved_utc": "2026-10-12T09:51:39.507890+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260407en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260407en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260407en",
+    "bytes": 123008,
+    "sha256": "c6ddf54b55b822f41406c0dec9bd72144f5b31104e3d117e5943c4d6aa56e4ad",
+    "retrieved_utc": "2026-10-12T09:51:39.557721+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260408en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260408en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260408en",
+    "bytes": 119376,
+    "sha256": "36e81d6053be9959c8f0ab26837f7723969ad0cb9eae54b4c2942fe223181bf8",
+    "retrieved_utc": "2026-10-12T09:51:39.858591+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260409en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260409en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260409en",
+    "bytes": 113817,
+    "sha256": "eca9a1899e680a7c04030487c04602aeaf8a9d5feeb3bda04368a8ea3a835c48",
+    "retrieved_utc": "2026-10-12T09:51:41.325582+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260410en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260410en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260410en",
+    "bytes": 117829,
+    "sha256": "54918e362cf074d253bc24ccbe781292a4f58c5790f8d9ef307d31e2613d922f",
+    "retrieved_utc": "2026-10-12T09:51:41.434363+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260413en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260413en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260413en",
+    "bytes": 123750,
+    "sha256": "94e9fde038edc36a6eb29e6af3b05cfdb8b714dc1e21f9515b4551d18147106e",
+    "retrieved_utc": "2026-10-12T09:51:41.705866+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260414en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260414en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260414en",
+    "bytes": 103134,
+    "sha256": "4c5f87deb455cbb16e01ca6555cdd05174e525635a23121a3b5514442202db07",
+    "retrieved_utc": "2026-10-12T09:51:43.049492+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260415en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260415en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260415en",
+    "bytes": 109849,
+    "sha256": "0cc164c6080ba369f88d743a8a2aaf4253eaacf80991a63cb6b37592942cbbde",
+    "retrieved_utc": "2026-10-12T09:51:43.204804+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260416en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260416en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260416en",
+    "bytes": 110186,
+    "sha256": "6ba57a9e0f480c4cd8fa5dc8519eb41242720a0af00b0b79688b31960f9b11ed",
+    "retrieved_utc": "2026-10-12T09:51:43.531203+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260417en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260417en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260417en",
+    "bytes": 109944,
+    "sha256": "75c229728b427745c16ccb54dc54998fc387bfc9fc15d6777a19474b48ecedb9",
+    "retrieved_utc": "2026-10-12T09:51:44.851849+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260420en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260420en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260420en",
+    "bytes": 112454,
+    "sha256": "35c9bda3b90adabf4e75c21bba4e46520efa9b9d51041d510468417b7dbd45d0",
+    "retrieved_utc": "2026-10-12T09:51:45.095384+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260421en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260421en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260421en",
+    "bytes": 108809,
+    "sha256": "29b102834b7e5235aac1d4f4c7bbbff543af3eb3021d8a88f01741156e900967",
+    "retrieved_utc": "2026-10-12T09:51:45.182044+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260422en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260422en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260422en",
+    "bytes": 109727,
+    "sha256": "cb48e84e1ac64514d22854af16035a84bf5957a57e8fbdcbb4a6f4a22925d5c4",
+    "retrieved_utc": "2026-10-12T09:51:46.836745+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260423en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260423en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260423en",
+    "bytes": 106751,
+    "sha256": "cb7f3e426837f3bda7e656598b0aadcab897aa4bf85d6f5bd21350563e587145",
+    "retrieved_utc": "2026-10-12T09:51:46.729368+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260424en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260424en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260424en",
+    "bytes": 106798,
+    "sha256": "762aec7205227389c6cb3a6dc03193b5a5bd63e23cc06a808aaa83a34ee7b9b7",
+    "retrieved_utc": "2026-10-12T09:51:46.965135+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260427en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260427en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260427en",
+    "bytes": 106799,
+    "sha256": "48ea0eb7ae270ed116f83ed4690d53f6ba318f770f4f71e883406f5cd4d1be3b",
+    "retrieved_utc": "2026-10-12T09:51:48.467615+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260428en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260428en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260428en",
+    "bytes": 118129,
+    "sha256": "f50d11cfae6fd99125dd5a8c125531739288c7db0d65f31ef9caa3778f49220f",
+    "retrieved_utc": "2026-10-12T09:51:48.672350+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260429en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260429en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260429en",
+    "bytes": 120338,
+    "sha256": "b9d10e8dfba8acc58e10c37eed95e220caf10f260811a1ab5b0501e5d15ce4ec",
+    "retrieved_utc": "2026-10-12T09:51:48.577683+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260430en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260430en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260430en",
+    "bytes": 125955,
+    "sha256": "fe1c0da90c4e75f8774fdec221ddde6f59988a08ebed7cce83319b61af95aef8",
+    "retrieved_utc": "2026-10-12T09:51:50.365140+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260501en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260501en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260501en",
+    "bytes": 119086,
+    "sha256": "96c39090b5957cea9a3c257d433b219be42d61c934cd8c64ab382f5330ee3745",
+    "retrieved_utc": "2026-10-12T09:51:50.321212+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260504en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260504en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260504en",
+    "bytes": 112985,
+    "sha256": "e5f5b9f99a0cc7472ae3bb64da4d4459cc868fd72674cc1639103acd03798f77",
+    "retrieved_utc": "2026-10-12T09:51:50.424962+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260505en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260505en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260505en",
+    "bytes": 104114,
+    "sha256": "288775c028669ead88d26a63bea1dea67c47ddafb7d8376221a2e4c9a4e05696",
+    "retrieved_utc": "2026-10-12T09:51:52.186664+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260506en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260506en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260506en",
+    "bytes": 102935,
+    "sha256": "248d3a7dc6547827b69c46c5b444ea2f4323d5413fca69bc6ff9d3602fd28c11",
+    "retrieved_utc": "2026-10-12T09:51:52.037990+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260507en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260507en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260507en",
+    "bytes": 105628,
+    "sha256": "efeca3f04c461153bbcd3160edf7a021bf6ebb63bc31f57bc8d7028f3bd219f8",
+    "retrieved_utc": "2026-10-12T09:51:52.312130+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260508en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260508en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260508en",
+    "bytes": 109530,
+    "sha256": "2efa8c98cc92802bf9289b207c4b3c4c9d9b72ee50f2a1b614531b8bd01a852c",
+    "retrieved_utc": "2026-10-12T09:51:53.800109+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260511en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260511en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260511en",
+    "bytes": 109500,
+    "sha256": "bf485f901556bea28213c40d001c3c8fca5652667a930c892fb1c03c4f74af09",
+    "retrieved_utc": "2026-10-12T09:51:53.776899+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260512en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260512en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260512en",
+    "bytes": 118240,
+    "sha256": "5f03adbc901dd045484c1d32f67bb4357c45e429fdc126c7b4643a39495e9fad",
+    "retrieved_utc": "2026-10-12T09:51:54.049538+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260513en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260513en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260513en",
+    "bytes": 119997,
+    "sha256": "b1aab92cef6264a4bf62bacc573344b5b99064f319a09f7133e11972fd22c4cb",
+    "retrieved_utc": "2026-10-12T09:51:55.594679+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260514en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260514en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260514en",
+    "bytes": 105110,
+    "sha256": "7aa48fe11f13d133ef3137fc3d3c807c4508e8ad80f87ceaaef5b1d538f08e8d",
+    "retrieved_utc": "2026-10-12T09:51:55.568668+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260515en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260515en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260515en",
+    "bytes": 103260,
+    "sha256": "72a07f293d54c47c7a045182ef7668090fa593ed7c0ea338d3bab5dbcce2200d",
+    "retrieved_utc": "2026-10-12T09:51:55.563883+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260518en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260518en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260518en",
+    "bytes": 117497,
+    "sha256": "e8795d2b8fdc82c261191dc1cafa58e7aaa4ed2767b32a444eaa272fec58d1ea",
+    "retrieved_utc": "2026-10-12T09:51:57.335040+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260519en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260519en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260519en",
+    "bytes": 115371,
+    "sha256": "bee59bf03f27d0c8765c75aa452d72cdb8008209ae6d98896cfe3f9f0cf052a4",
+    "retrieved_utc": "2026-10-12T09:51:57.340653+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260520en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260520en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260520en",
+    "bytes": 109301,
+    "sha256": "edf7c38b0b7f0f02bf5d2987315eed8d99e3dc3e6bbfc6e13e156489aae7833c",
+    "retrieved_utc": "2026-10-12T09:51:57.342965+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260521en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260521en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260521en",
+    "bytes": 106263,
+    "sha256": "bdeafcbb9794f3a8311c95523c2afabc064ea9f6ee7257f7fbd1dc81c7d2f937",
+    "retrieved_utc": "2026-10-12T09:51:59.173105+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260522en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260522en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260522en",
+    "bytes": 115291,
+    "sha256": "c034462e01eea2f0d8858329ee3d50980681ce70c9927987d521aa2d55911ee7",
+    "retrieved_utc": "2026-10-12T09:51:59.115571+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260526en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260526en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260526en",
+    "bytes": 130443,
+    "sha256": "9dfe9f30b24d412f2472a34988e91d173dde181e0ffbcd5fe7e2ca90486039f9",
+    "retrieved_utc": "2026-10-12T09:51:59.208587+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260527en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260527en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260527en",
+    "bytes": 102851,
+    "sha256": "907072293b47a58ff80cebc7d9dc7e1a30eadce21eee7ce69d5d6f688ec5814b",
+    "retrieved_utc": "2026-10-12T09:52:01.112684+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260528en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260528en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260528en",
+    "bytes": 100176,
+    "sha256": "f89d3c7e3e59402d531662f2d8bc5d926f8ef2b5f5b2595e6ba0644e3be019dd",
+    "retrieved_utc": "2026-10-12T09:52:01.024473+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260529en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260529en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260529en",
+    "bytes": 114174,
+    "sha256": "e6c2233aa5b0d605dfcca62b6aecff278d198ea777001cedc14c1a8284191d87",
+    "retrieved_utc": "2026-10-12T09:52:01.059502+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260601en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260601en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260601en",
+    "bytes": 109449,
+    "sha256": "0a51994b84077346d9fedbab15067a9740c823cef27eeead9de6b8b8cd8098d6",
+    "retrieved_utc": "2026-10-12T09:52:02.817356+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260602en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260602en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260602en",
+    "bytes": 100181,
+    "sha256": "c6610fb8cc1b84cf3bc9ef4989bd79a1a92b03b8234886a4c8f0971c9e63bfa8",
+    "retrieved_utc": "2026-10-12T09:52:02.940231+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260603en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260603en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260603en",
+    "bytes": 106272,
+    "sha256": "671dfe5ec1085321b746c73a1b0b90e97debf5c0493d6fe664ae98ef0fa6502d",
+    "retrieved_utc": "2026-10-12T09:52:02.953655+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260604en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260604en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260604en",
+    "bytes": 106272,
+    "sha256": "e33877a51e39c427e70af2c2f06050c843a406d9cecbe38ecd2b095ecce1df60",
+    "retrieved_utc": "2026-10-12T09:52:04.584393+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260605en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260605en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260605en",
+    "bytes": 108823,
+    "sha256": "1dd8c408fe05799ee4987ed381059d15b4634ac00fdf68032e2f4685406ff21b",
+    "retrieved_utc": "2026-10-12T09:52:04.656446+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260608en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260608en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260608en",
+    "bytes": 119390,
+    "sha256": "b1a0fbf5b41b9bbb9a6d1998dc0b2af011af08ad6c3c5ca23a287be436f551c0",
+    "retrieved_utc": "2026-10-12T09:52:04.834791+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260609en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260609en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260609en",
+    "bytes": 103523,
+    "sha256": "8e51541e18fbb726e6d26e607e357b8c440862ee21da9b0a6ff4aab5adca8462",
+    "retrieved_utc": "2026-10-12T09:52:06.303187+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260610en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260610en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260610en",
+    "bytes": 109936,
+    "sha256": "ac77d795fb3e2ce54b874141999f0e133ec77536883af14748ac327ac39abab2",
+    "retrieved_utc": "2026-10-12T09:52:06.477121+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260611en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260611en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260611en",
+    "bytes": 126940,
+    "sha256": "75ed5ec6f26e1a41a609ed12b339eaea306b005674ac42467dffe7ccb2ad5ea2",
+    "retrieved_utc": "2026-10-12T09:52:06.659885+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260612en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260612en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260612en",
+    "bytes": 122083,
+    "sha256": "f23c91d18c496dbe195d80a95a3c12c8378483568505f62c2f8bd3e396c87ed8",
+    "retrieved_utc": "2026-10-12T09:52:07.925053+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260615en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260615en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260615en",
+    "bytes": 111677,
+    "sha256": "7ec1be1ca4191750ae5b2f2e1d11bb14b770ba786c91cfe50dba6ba175283055",
+    "retrieved_utc": "2026-10-12T09:52:08.359605+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260616en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260616en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260616en",
+    "bytes": 113238,
+    "sha256": "dd9f7c2b3389f601a2e6a2331b5e361af1d185decd9c12e52ee47af2f6b3d4a8",
+    "retrieved_utc": "2026-10-12T09:52:08.504675+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260617en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260617en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260617en",
+    "bytes": 122781,
+    "sha256": "60cc04d401b61c470bd38f62bce9bd1cbb5d51a133f39f20f62d3c34e3bef69d",
+    "retrieved_utc": "2026-10-12T09:52:09.745814+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260618en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260618en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260618en",
+    "bytes": 116186,
+    "sha256": "36d3092e1cab669a85489e1c0c1c4240453b76d0cf5b4c09f869682f4b9ee42c",
+    "retrieved_utc": "2026-10-12T09:52:10.154410+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260622en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260622en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260622en",
+    "bytes": 117754,
+    "sha256": "1760dae8a6c8a5556e540dd96c1eae75e2299af38e7481dfabf4ba1806e10afa",
+    "retrieved_utc": "2026-10-12T09:52:10.395597+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260623en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260623en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260623en",
+    "bytes": 113417,
+    "sha256": "c21a53c28f0deb8472c9e3d2ef268b496bdbbdd16157f67f1052cd39caf688b3",
+    "retrieved_utc": "2026-10-12T09:52:11.926215+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260624en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260624en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260624en",
+    "bytes": 103124,
+    "sha256": "925fec1f41c06c2b495be195e0d358d8b78787d24bf43df42fcb2d0776d190fe",
+    "retrieved_utc": "2026-10-12T09:52:11.925948+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260625en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260625en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260625en",
+    "bytes": 109283,
+    "sha256": "6148339624b98be79baf54f1a01a3d68ec1c92f0bd0c7f48ffc14011f45aa274",
+    "retrieved_utc": "2026-10-12T09:52:12.231739+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260626en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260626en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260626en",
+    "bytes": 105999,
+    "sha256": "c4caf5c476fc734c1c9dd0f628a59c81d3cce82afe871211436d5474aa0a194e",
+    "retrieved_utc": "2026-10-12T09:52:13.716495+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260629en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260629en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260629en",
+    "bytes": 118986,
+    "sha256": "6f002cd112198252fdb2dafcd43f929c2d65de0138edd46336eea123490fb488",
+    "retrieved_utc": "2026-10-12T09:52:13.665829+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260630en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260630en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260630en",
+    "bytes": 107532,
+    "sha256": "52f23119be16f31ce6cec496b139ba697dd1e035b480043a2bb2387fa2dc0687",
+    "retrieved_utc": "2026-10-12T09:52:14.131379+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260701en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260701en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260701en",
+    "bytes": 107531,
+    "sha256": "23698b12cb575bf85bebf2e57c3a5303646747c2e4670d9bbefbdbef83cddb67",
+    "retrieved_utc": "2026-10-12T09:52:15.304080+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260702en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260702en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260702en",
+    "bytes": 106330,
+    "sha256": "b73b1bcb4286c175b06c88d56a8aa31851fc85254b78bbbd00f64b96228ee19b",
+    "retrieved_utc": "2026-10-12T09:52:15.328745+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260706en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260706en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260706en",
+    "bytes": 121291,
+    "sha256": "99059e6ef3750d557cc216702a6cd786ac3d99e2841c448741d3807645137ca9",
+    "retrieved_utc": "2026-10-12T09:52:15.748771+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260707en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260707en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260707en",
+    "bytes": 107540,
+    "sha256": "f228ee4ce211a4419dfe29fe306c4e5a3f94174e2c7717e17ba99053d4f25f81",
+    "retrieved_utc": "2026-10-12T09:52:17.157257+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260708en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260708en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260708en",
+    "bytes": 127789,
+    "sha256": "fe53c4896417dd1b13cc1e67fe98d549d10bf7ead6ca0716e93087bb95917400",
+    "retrieved_utc": "2026-10-12T09:52:16.975981+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260709en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260709en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260709en",
+    "bytes": 121525,
+    "sha256": "07b4a2424ed30b52834d56602121239c98b1b5d832e116bd7ecec95473efb0d8",
+    "retrieved_utc": "2026-10-12T09:52:17.527093+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260710en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260710en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260710en",
+    "bytes": 110851,
+    "sha256": "dd4860756c0b45deef94050244910b3e1d62a438e9881d9a0135bd21c4421de6",
+    "retrieved_utc": "2026-10-12T09:52:18.577214+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260713en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260713en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260713en",
+    "bytes": 103150,
+    "sha256": "7426721a716e2881ef0174db0fe282234a5b70e5f0b44ae26ec80a8a8520ead2",
+    "retrieved_utc": "2026-10-12T09:52:19.035543+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260714en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260714en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260714en",
+    "bytes": 106299,
+    "sha256": "aeba2e27f1ac7929c84ef898b5c43130213073946ecde2531fb419fc239e7eb7",
+    "retrieved_utc": "2026-10-12T09:52:19.395231+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260715en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260715en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260715en",
+    "bytes": 103365,
+    "sha256": "a71d57ccb5ba4b97eddd1a7c24d6f8a58376699a5f3fd7f6537c3461d10949d7",
+    "retrieved_utc": "2026-10-12T09:52:20.225568+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260716en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260716en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260716en",
+    "bytes": 100181,
+    "sha256": "fb7712f9e70089287f614da89e2ed7bd0647ba246426660ac58b7140c5a82deb",
+    "retrieved_utc": "2026-10-12T09:52:20.615541+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260717en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260717en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260717en",
+    "bytes": 112507,
+    "sha256": "70e6f6caa04289af40dc2618790f01462222637f491632342821839893f14201",
+    "retrieved_utc": "2026-10-12T09:52:19.887120+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260720en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260720en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260720en",
+    "bytes": 106347,
+    "sha256": "c8e21b29d3aef3a3b42f0cecfb0c0733a9ed65c34a1a62b6bbdfc4ff03803099",
+    "retrieved_utc": "2026-10-12T09:52:21.764787+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260721en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260721en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260721en",
+    "bytes": 109455,
+    "sha256": "7993ac19936affda6b765910d111aee89cefe01f6c69bc1b09c1c7c2aab6bd02",
+    "retrieved_utc": "2026-10-12T09:52:22.042546+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260722en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260722en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260722en",
+    "bytes": 118361,
+    "sha256": "1b93164667db2eb29955c0712252ed12d5f783276509d2568677bb51bce5d0f2",
+    "retrieved_utc": "2026-10-12T09:52:22.302034+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260723en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260723en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260723en",
+    "bytes": 112823,
+    "sha256": "7aa5352a49603075087aedc3763755516f856ae8eaaaf67feb986049f5962baa",
+    "retrieved_utc": "2026-10-12T09:52:23.712570+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260724en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260724en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260724en",
+    "bytes": 112743,
+    "sha256": "d7fac01225d3400e3dfc5bd9070875632816c64c83898d6806d47c40ade3c4b5",
+    "retrieved_utc": "2026-10-12T09:52:23.887707+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260727en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260727en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260727en",
+    "bytes": 113450,
+    "sha256": "475d85af3a53233a8c14f80b29802700e318a359c078849ea696b7a2f5f1fdd2",
+    "retrieved_utc": "2026-10-12T09:52:24.111259+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260728en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260728en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260728en",
+    "bytes": 115183,
+    "sha256": "6cb3281ad911a73932f526b868d3516bbf29177e51b9108ca47c3aa6096adc6f",
+    "retrieved_utc": "2026-10-12T09:52:25.610253+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260729en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260729en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260729en",
+    "bytes": 117441,
+    "sha256": "a6f81b9993d64bf366cffa3daabec950559deb507834659c84b3a637c3c91ff7",
+    "retrieved_utc": "2026-10-12T09:52:25.526712+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260730en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260730en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260730en",
+    "bytes": 122180,
+    "sha256": "9d818bc18fd176515ec200b38a6ab814deb2c950d309d2197da6d5227ccf83df",
+    "retrieved_utc": "2026-10-12T09:52:25.882189+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260731en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260731en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260731en",
+    "bytes": 126065,
+    "sha256": "f176ba9b95c9360d0abf29c714c85c506c8912980bcae9150f86fdfd4a1f3979",
+    "retrieved_utc": "2026-10-12T09:52:27.497437+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260803en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260803en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260803en",
+    "bytes": 123859,
+    "sha256": "1a9d3da66b864518cc7076796f263c1b93318c4fd48b39f93572704d207024ee",
+    "retrieved_utc": "2026-10-12T09:52:27.274001+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260804en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260804en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260804en",
+    "bytes": 112696,
+    "sha256": "33edb6d15bb700b26fb3d4f5af46acdd573fb529621a3522e78317705b5d02e1",
+    "retrieved_utc": "2026-10-12T09:52:27.657747+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260805en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260805en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260805en",
+    "bytes": 114642,
+    "sha256": "767b57a457299f371e8cee498d74eecbebeb746d9dc60d8b4d8e134cb390da8d",
+    "retrieved_utc": "2026-10-12T09:52:28.846534+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260806en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260806en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260806en",
+    "bytes": 114339,
+    "sha256": "7594949466fff87f3000381b1ff665fb1bdb011a82576eaa5da969f080a48e7b",
+    "retrieved_utc": "2026-10-12T09:52:29.103199+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260807en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260807en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260807en",
+    "bytes": 112125,
+    "sha256": "8b6c3d179532d93b40d795475a35d424f79c2124e5d244e9d9fc253673cd1804",
+    "retrieved_utc": "2026-10-12T09:52:29.280147+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260810en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260810en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260810en",
+    "bytes": 108623,
+    "sha256": "0c390b357c5c7ef73afd0c3ce1f28e2223f6a38c5ef0f93b3bb7842eed311465",
+    "retrieved_utc": "2026-10-12T09:52:30.471413+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260811en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260811en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260811en",
+    "bytes": 105477,
+    "sha256": "30c0086b1b59ecc9f28bbbfe85608014fa35a51ba0b3763c4b0ed5c4cc7b17ff",
+    "retrieved_utc": "2026-10-12T09:52:30.778744+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260812en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260812en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260812en",
+    "bytes": 107906,
+    "sha256": "1b7bde20a17ae95bb187fbe61cc83548396dcb9643d6be2d725d994554b0ddef",
+    "retrieved_utc": "2026-10-12T09:52:30.846281+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260813en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260813en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260813en",
+    "bytes": 107652,
+    "sha256": "f6d5223b1bc9be77db7b5f6f42ea17cb952787453820252c55ae3162a77ffbe7",
+    "retrieved_utc": "2026-10-12T09:52:32.427737+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260814en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260814en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260814en",
+    "bytes": 132471,
+    "sha256": "5f5cd6155a1c7227421e01c967a6d74c515106cd99e80d134c0d4ad35903d03c",
+    "retrieved_utc": "2026-10-12T09:52:32.663118+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260817en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260817en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260817en",
+    "bytes": 131733,
+    "sha256": "c6f3b757660df3135489999b0dcc586d8212f675e871a2b5a207d53242c36d71",
+    "retrieved_utc": "2026-10-12T09:52:32.627015+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260818en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260818en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260818en",
+    "bytes": 111109,
+    "sha256": "7e392b607e2760a39d5e953a90ef3b95c44a2eaf393a8fe133caf689fd349388",
+    "retrieved_utc": "2026-10-12T09:52:34.333760+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260819en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260819en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260819en",
+    "bytes": 113988,
+    "sha256": "a56459da9e655a1964e12b21f6404244ca20f8726226f95ff3bdae3ef35267f6",
+    "retrieved_utc": "2026-10-12T09:52:34.241050+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260820en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260820en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260820en",
+    "bytes": 114131,
+    "sha256": "d7a7b2efd395738a83043cd86179e04c2ac6d64a4b6f0399b8515dd1cb4aa5da",
+    "retrieved_utc": "2026-10-12T09:52:34.317066+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260821en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260821en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260821en",
+    "bytes": 106388,
+    "sha256": "626c9c9ffc77ce0978da84cc0d24ea704e24bf3c92a518eb4b62a0a4fd91608d",
+    "retrieved_utc": "2026-10-12T09:52:35.981418+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260824en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260824en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260824en",
+    "bytes": 109671,
+    "sha256": "f4468ca91be749fef4fe0cd685770381633621cf42412f12863dfaf02f865f52",
+    "retrieved_utc": "2026-10-12T09:52:35.981238+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260825en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260825en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260825en",
+    "bytes": 103140,
+    "sha256": "8c61f3a9c3071863ac708fc2cf59c6e11c88d1661017acd824517c53c1f9d22a",
+    "retrieved_utc": "2026-10-12T09:52:35.918169+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260826en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260826en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260826en",
+    "bytes": 105796,
+    "sha256": "c541a3060b9c54a887d3aeab814bcd85eaafeca348de93257e504ad73c98018a",
+    "retrieved_utc": "2026-10-12T09:52:37.485564+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260827en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260827en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260827en",
+    "bytes": 105429,
+    "sha256": "08015079e9dfb74c1bc76774a4b6ed2378689dccd6ba25bf40eadc5ff1d1e28b",
+    "retrieved_utc": "2026-10-12T09:52:37.533182+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260828en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260828en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260828en",
+    "bytes": 102773,
+    "sha256": "031c96c4dead332815e26beaa89293fe2e461be45bec2c606ec8561ed5958e72",
+    "retrieved_utc": "2026-10-12T09:52:38.144745+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260831en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260831en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260831en",
+    "bytes": 118906,
+    "sha256": "10928098e415ef0a17e845bd05e45550b9884ee5f7a15257f6f60beacc06325f",
+    "retrieved_utc": "2026-10-12T09:52:39.515588+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260901en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260901en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260901en",
+    "bytes": 115403,
+    "sha256": "578f5a70baa8cf569a13dcd9fce386b8a1e2d548e88355ac2d4dcedde525bbe0",
+    "retrieved_utc": "2026-10-12T09:52:39.143672+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260902en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260902en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260902en",
+    "bytes": 108782,
+    "sha256": "937de4a5196cbfb5bba58bb77c2c41059478e7c060f43d3e6a7d9362db33aa31",
+    "retrieved_utc": "2026-10-12T09:52:39.995162+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260903en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260903en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260903en",
+    "bytes": 109885,
+    "sha256": "37e457611402b4e49d5b061282f78091abe7692172ad2386c592766255e5c9cf",
+    "retrieved_utc": "2026-10-12T09:52:40.781322+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260904en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260904en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260904en",
+    "bytes": 126337,
+    "sha256": "37d8c230d622d5bb4642c2fad5d19612e77223a16630a33f10a599f71ce80c79",
+    "retrieved_utc": "2026-10-12T09:52:41.167341+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260905en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260905en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260905en",
+    "bytes": 119483,
+    "sha256": "7c3dd07178dc663fead27a0bcd0901880ab0e67eaca41c4110e74460da3342b3",
+    "retrieved_utc": "2026-10-12T09:52:41.614721+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260908en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260908en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260908en",
+    "bytes": 103186,
+    "sha256": "377aed589222c699cfeb6f68f1aec09acc99b80f1ef6fed2bda28ff4a529cc7d",
+    "retrieved_utc": "2026-10-12T09:52:42.425256+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260909en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260909en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260909en",
+    "bytes": 106688,
+    "sha256": "4057198395d244d9282c421f0f37be6d335e77be365d19eb2bed5fcc1cacc34a",
+    "retrieved_utc": "2026-10-12T09:52:42.753615+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260910en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260910en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260910en",
+    "bytes": 121447,
+    "sha256": "6a411758b7869ffb1c4d29d9bca46f2a409446889ee82c6f49ddeadd1c0dc051",
+    "retrieved_utc": "2026-10-12T09:52:43.586698+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260911en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260911en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260911en",
+    "bytes": 100201,
+    "sha256": "66691a9fd525397795b52da75707ddd065ad0201be974af9e3ae98db734cfad7",
+    "retrieved_utc": "2026-10-12T09:52:44.320061+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260914en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260914en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260914en",
+    "bytes": 100201,
+    "sha256": "b779f186ccaacc9ebfa52b005959b43a941d8da27f6d0ecffec3c7c8eecd59b3",
+    "retrieved_utc": "2026-10-12T09:52:44.534784+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260915en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260915en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260915en",
+    "bytes": 106377,
+    "sha256": "e20a5e3b290539b557859394fb5f89ee6608c4a92b42062be0515e0485c8e49b",
+    "retrieved_utc": "2026-10-12T09:52:45.483932+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260916en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260916en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260916en",
+    "bytes": 112524,
+    "sha256": "e1880f1a04c37e90087d64324f194792694830d646fd8633949413daa6db7b9d",
+    "retrieved_utc": "2026-10-12T09:52:46.102531+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260917en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260917en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260917en",
+    "bytes": 126026,
+    "sha256": "ef46e1142fed27d3f9450ac818a47b5e954df71cd032e2438523447d345d6ed0",
+    "retrieved_utc": "2026-10-12T09:52:46.180894+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260918en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260918en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260918en",
+    "bytes": 125519,
+    "sha256": "8c1364e237097f0f1ec5b793ab216cdb184c5a5e8cd68130cc31f19d56a88b76",
+    "retrieved_utc": "2026-10-12T09:52:47.102908+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260921en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260921en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260921en",
+    "bytes": 128297,
+    "sha256": "0d9c48f05b30706178f0622da73ad61149f12f95039c1a9a9e63fc4118f577d7",
+    "retrieved_utc": "2026-10-12T09:52:48.072601+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260922en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260922en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260922en",
+    "bytes": 103078,
+    "sha256": "f20af73e6c5c05df530e0f3e28e4c82db1412b89add3fa75309b8cf0c09f3598",
+    "retrieved_utc": "2026-10-12T09:52:47.750000+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260923en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260923en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260923en",
+    "bytes": 116160,
+    "sha256": "3601b632c8274070af414abc8f061d5c9d60a2c570d93d7da5b8bc16e77e6feb",
+    "retrieved_utc": "2026-10-12T09:52:50.346702+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260924en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260924en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260924en",
+    "bytes": 111495,
+    "sha256": "088f874c46d4b2d3dedf11d82bcae4c9c8fbdef7b13bab962ea99030423b177b",
+    "retrieved_utc": "2026-10-12T09:52:50.338853+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260925en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260925en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260925en",
+    "bytes": 112578,
+    "sha256": "18850c70cd79ba1ff5318a877198d1ec8d8863dbd62a275b50274517247c7770",
+    "retrieved_utc": "2026-10-12T09:52:50.482292+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260928en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260928en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260928en",
+    "bytes": 114652,
+    "sha256": "1a376b82e79fc1d218078e6c3b005b13e428d17d67cac443ecb13edddc18e14f",
+    "retrieved_utc": "2026-10-12T09:52:52.120036+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260929en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260929en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260929en",
+    "bytes": 109604,
+    "sha256": "350e284232fe5545373e890f1ae05b76ef290a56b20ab3eafe1ab9ca8c43f0a6",
+    "retrieved_utc": "2026-10-12T09:52:50.886056+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20260930en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260930en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20260930en",
+    "bytes": 109315,
+    "sha256": "1d5acc0c8595328422552e8b9eba3d55d729652793b37015995f5b6f12471b87",
+    "retrieved_utc": "2026-10-12T09:52:52.248399+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20261001en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261001en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261001en",
+    "bytes": 120473,
+    "sha256": "895ed273587413a443c75bb8f9dd81bca1602c37ea37fe8df88b19fd232ddc81",
+    "retrieved_utc": "2026-10-12T09:52:51.339690+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20261002en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261002en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261002en",
+    "bytes": 113273,
+    "sha256": "e8c84e25dae6fce76e549f3dc043e753d58d5431416b5da45fb30591bc511c62",
+    "retrieved_utc": "2026-10-12T09:52:51.836924+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20261005en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261005en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261005en",
+    "bytes": 112342,
+    "sha256": "1263f1b7e360410b2d11c8248930e5681da233bc545f261b68c0f89b00c94513",
+    "retrieved_utc": "2026-10-12T09:52:53.375544+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20261006en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261006en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261006en",
+    "bytes": 105340,
+    "sha256": "a5d7ef6094b3083ee8cd4ec5ca71de2ad8940af5dc7aca85e05b3e749eba561f",
+    "retrieved_utc": "2026-10-12T09:52:52.596932+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20261007en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261007en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261007en",
+    "bytes": 109947,
+    "sha256": "bac01211a7856e046131cdb3caba483adbe6a4fd010d575905901dd0f9bee8ba",
+    "retrieved_utc": "2026-10-12T09:52:52.741284+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20261008en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261008en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261008en",
+    "bytes": 122633,
+    "sha256": "b467c2710d72eda62267cc7bd5802478c78b3ae9e446f67ee073ebfe42fe7bf9",
+    "retrieved_utc": "2026-10-12T09:52:53.151224+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20261009en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261009en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261009en",
+    "bytes": 115996,
+    "sha256": "4e2ef6a3d1cc19ad4682687d8a10dfcf459d83d508f6195e7160767a872f6a31",
+    "retrieved_utc": "2026-10-12T09:52:54.385925+00:00",
+    "status": "Downloaded"
+  },
+  {
+    "path": "Raw/Event_Notifications/20261010en.html",
+    "source_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261010en",
+    "resolved_url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/2026/20261010en",
+    "bytes": 103311,
+    "sha256": "d82f8e59e5c767f5703d6296591c16a540f15dc2bffbd27d96150c459167b219",
+    "retrieved_utc": "2026-10-12T09:52:53.708634+00:00",
+    "status": "Downloaded"
+  }
+]

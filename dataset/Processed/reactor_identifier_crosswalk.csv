@@ -1,0 +1,103 @@
+source_unit,name_key,registry_name,reactor_id,reactor_type,commercial_date,registry_source,eia_plant_code,eia_plant_name,plant_lat,plant_lon,plant_id
+Arkansas Nuclear 1,ano1,ANO 1,05000313,PWR,1974-12-19,NRC operating workbook,8055,Arkansas Nuclear One,35.311,-93.2351,arkansasnuclear
+Arkansas Nuclear 2,ano2,ANO 2,05000368,PWR,1980-03-26,NRC operating workbook,8055,Arkansas Nuclear One,35.311,-93.2351,arkansasnuclear
+Beaver Valley 1,beavervalley1,Beaver Valley 1,05000334,PWR,1976-10-01,NRC operating workbook,6040,Beaver Valley,40.6219,-80.4336,beavervalley
+Beaver Valley 2,beavervalley2,Beaver Valley 2,05000412,PWR,1987-11-17,NRC operating workbook,6040,Beaver Valley,40.6219,-80.4336,beavervalley
+Braidwood 1,braidwood1,Braidwood 1,05000456,PWR,1988-07-29,NRC operating workbook,6022,Braidwood Generation Station,41.2435,-88.2286,braidwood
+Braidwood 2,braidwood2,Braidwood 2,05000457,PWR,1988-10-17,NRC operating workbook,6022,Braidwood Generation Station,41.2435,-88.2286,braidwood
+Browns Ferry 1,brownsferry1,Browns Ferry 1,05000259,BWR,1974-08-01,NRC operating workbook,46,Browns Ferry,34.7042,-87.1189,brownsferry
+Browns Ferry 2,brownsferry2,Browns Ferry 2,05000260,BWR,1975-03-01,NRC operating workbook,46,Browns Ferry,34.7042,-87.1189,brownsferry
+Browns Ferry 3,brownsferry3,Browns Ferry 3,05000296,BWR,1977-03-01,NRC operating workbook,46,Browns Ferry,34.7042,-87.1189,brownsferry
+Brunswick 1,brunswick1,Brunswick 1,05000325,BWR,1977-03-18,NRC operating workbook,6014,Brunswick Nuclear,33.9597,-78.0114,brunswick
+Brunswick 2,brunswick2,Brunswick 2,05000324,BWR,1975-11-03,NRC operating workbook,6014,Brunswick Nuclear,33.9597,-78.0114,brunswick
+Byron 1,byron1,Byron 1,05000454,PWR,1985-09-16,NRC operating workbook,6023,Byron Generating Station,42.0742,-89.2819,byron
+Byron 2,byron2,Byron 2,05000455,PWR,1987-08-02,NRC operating workbook,6023,Byron Generating Station,42.0742,-89.2819,byron
+Callaway,callaway,Callaway,05000483,PWR,1984-12-19,NRC operating workbook,6153,Callaway,38.758919,-91.778841,callaway
+Calvert Cliffs 1,calvertcliffs1,Calvert Cliffs 1,05000317,PWR,1975-05-08,NRC operating workbook,6011,Calvert Cliffs Nuclear Power Plant,38.4344,-76.4417,calvertcliffs
+Calvert Cliffs 2,calvertcliffs2,Calvert Cliffs 2,05000318,PWR,1977-04-01,NRC operating workbook,6011,Calvert Cliffs Nuclear Power Plant,38.4344,-76.4417,calvertcliffs
+Catawba 1,catawba1,Catawba 1,05000413,PWR,1985-06-29,NRC operating workbook,6036,Catawba,35.0514,-81.0694,catawba
+Catawba 2,catawba2,Catawba 2,05000414,PWR,1986-08-19,NRC operating workbook,6036,Catawba,35.0514,-81.0694,catawba
+Clinton,clinton,Clinton,05000461,BWR,1987-11-24,NRC operating workbook,204,Clinton Power Station,40.1719,-88.8339,clinton
+Columbia Generating Station,columbiageneratingstation,Columbia Generating Station,05000397,BWR,1984-12-13,NRC operating workbook,371,Columbia Generating Station,46.4711,-119.3339,columbiageneratingstation
+Comanche Peak 1,comanchepeak1,Comanche Peak 1,05000445,PWR,1990-08-13,NRC operating workbook,6145,Comanche Peak,32.298365,-97.785515,comanchepeak
+Comanche Peak 2,comanchepeak2,Comanche Peak 2,05000446,PWR,1993-08-03,NRC operating workbook,6145,Comanche Peak,32.298365,-97.785515,comanchepeak
+Cooper,cooper,Cooper,05000298,BWR,1974-07-01,NRC operating workbook,8036,Cooper Nuclear Station,40.3628,-95.6408,cooper
+D.C. Cook 1,dccook1,D.C. Cook 1,05000315,PWR,1975-08-28,NRC operating workbook,6000,Donald C Cook,41.975604,-86.565206,dccook
+D.C. Cook 2,dccook2,D.C. Cook 2,05000316,PWR,1978-07-01,NRC operating workbook,6000,Donald C Cook,41.975604,-86.565206,dccook
+Davis-Besse,davisbesse,Davis-Besse,05000346,PWR,1978-07-31,NRC operating workbook,6149,Davis Besse,41.5967,-83.0861,davisbesse
+Diablo Canyon 1,diablocanyon1,Diablo Canyon 1,05000275,PWR,1985-05-07,NRC operating workbook,6099,Diablo Canyon,35.211536,-120.855542,diablocanyon
+Diablo Canyon 2,diablocanyon2,Diablo Canyon 2,05000323,PWR,1986-03-13,NRC operating workbook,6099,Diablo Canyon,35.211536,-120.855542,diablocanyon
+Dresden 2,dresden2,Dresden 2,05000237,BWR,1970-06-09,NRC operating workbook,869,Dresden Generating Station,41.39,-88.27,dresden
+Dresden 3,dresden3,Dresden 3,05000249,BWR,1971-11-16,NRC operating workbook,869,Dresden Generating Station,41.39,-88.27,dresden
+Duane Arnold,duanearnold,Duane Arnold,05000331,BWR,,NRC decommissioning workbook,1060,Duane Arnold Energy Center,42.1011,-91.7781,duanearnold
+Farley 1,farley1,Farley 1,05000348,PWR,1977-12-01,NRC operating workbook,6001,Joseph M Farley,31.2231,-85.1116,farley
+Farley 2,farley2,Farley 2,05000364,PWR,1981-07-30,NRC operating workbook,6001,Joseph M Farley,31.2231,-85.1116,farley
+Fermi 2,fermi2,Fermi 2,05000341,BWR,1988-01-23,NRC operating workbook,1729,Fermi,41.9631,-83.2581,fermi
+FitzPatrick,fitzpatrick,FitzPatrick,05000333,BWR,1975-07-28,NRC operating workbook,6110,James A Fitzpatrick,43.52139,-76.408394,ninemilepointfitzpatrick
+Ginna,ginna,Ginna,05000244,PWR,1970-07-01,NRC operating workbook,6122,R E Ginna Nuclear Power Plant,43.2777,-77.3099,ginna
+Grand Gulf 1,grandgulf1,Grand Gulf 1,05000416,BWR,1985-07-01,NRC operating workbook,6072,Grand Gulf,32.0081,-91.0478,grandgulf
+Harris 1,shearonharris1,Shearon Harris 1,05000400,PWR,1987-05-02,NRC operating workbook,6015,Harris,35.6334,-78.9556,harris
+Hatch 1,hatch1,Hatch 1,05000321,BWR,1975-12-31,NRC operating workbook,6051,Edwin I Hatch,31.9342,-82.3447,hatch
+Hatch 2,hatch2,Hatch 2,05000366,BWR,1979-09-05,NRC operating workbook,6051,Edwin I Hatch,31.9342,-82.3447,hatch
+Hope Creek 1,hopecreek1,Hope Creek 1,05000354,BWR,1986-12-20,NRC operating workbook,6118,PSEG Hope Creek Generating Station,39.4666,-75.5377,salemhopecreek
+Indian Point 2,indianpoint2,Indian Point 2,05000247,PWR,,NRC decommissioning workbook,2497,Indian Point 2,41.270556,-73.9527,indianpoint
+Indian Point 3,indianpoint3,Indian Point 3,05000286,PWR,,NRC decommissioning workbook,8907,Indian Point 3,41.2706,-73.9526,indianpoint
+LaSalle 1,lasalle1,La Salle 1,05000373,BWR,1984-01-01,NRC operating workbook,6026,LaSalle Generating Station,41.245498,-88.669066,lasalle
+LaSalle 2,lasalle2,La Salle 2,05000374,BWR,1984-10-19,NRC operating workbook,6026,LaSalle Generating Station,41.245498,-88.669066,lasalle
+Limerick 1,limerick1,Limerick 1,05000352,BWR,1986-02-01,NRC operating workbook,6105,Limerick,40.224303,-75.58744,limerick
+Limerick 2,limerick2,Limerick 2,05000353,BWR,1990-01-08,NRC operating workbook,6105,Limerick,40.224303,-75.58744,limerick
+McGuire 1,mcguire1,McGuire 1,05000369,PWR,1981-12-01,NRC operating workbook,6038,McGuire,35.4331,-80.9486,mcguire
+McGuire 2,mcguire2,McGuire 2,05000370,PWR,1984-03-01,NRC operating workbook,6038,McGuire,35.4331,-80.9486,mcguire
+Millstone 2,millstone2,Millstone 2,05000336,PWR,1975-12-26,NRC operating workbook,566,Millstone,41.3107,-72.1677,millstone
+Millstone 3,millstone3,Millstone 3,05000423,PWR,1986-04-23,NRC operating workbook,566,Millstone,41.3107,-72.1677,millstone
+Monticello,monticello,Monticello,05000263,BWR,1971-06-30,NRC operating workbook,1922,Monticello Nuclear Facility,45.3338,-93.8493,monticello
+Nine Mile Point 1,ninemilepoint1,Nine Mile Point 1,05000220,BWR,1969-12-01,NRC operating workbook,2589,Nine Mile Point Nuclear Station,43.5211,-76.41,ninemilepointfitzpatrick
+Nine Mile Point 2,ninemilepoint2,Nine Mile Point 2,05000410,BWR,1988-03-11,NRC operating workbook,2589,Nine Mile Point Nuclear Station,43.5211,-76.41,ninemilepointfitzpatrick
+North Anna 1,northanna1,North Anna 1,05000338,PWR,1978-06-06,NRC operating workbook,6168,North Anna,38.06,-77.7897,northanna
+North Anna 2,northanna2,North Anna 2,05000339,PWR,1980-12-14,NRC operating workbook,6168,North Anna,38.06,-77.7897,northanna
+Oconee 1,oconee1,Oconee 1,05000269,PWR,1973-07-15,NRC operating workbook,3265,Oconee,34.7939,-82.8986,oconee
+Oconee 2,oconee2,Oconee 2,05000270,PWR,1974-09-09,NRC operating workbook,3265,Oconee,34.7939,-82.8986,oconee
+Oconee 3,oconee3,Oconee 3,05000287,PWR,1974-12-16,NRC operating workbook,3265,Oconee,34.7939,-82.8986,oconee
+Palisades,palisades,Palisades,05000255,PWR,,NRC SCRAM unit identifier,1715,Palisades,42.323,-86.3146,palisades
+Palo Verde 1,paloverde1,Palo Verde 1,05000528,PWR,1986-01-28,NRC operating workbook,6008,Palo Verde,33.3881,-112.8617,paloverde
+Palo Verde 2,paloverde2,Palo Verde 2,05000529,PWR,1986-09-19,NRC operating workbook,6008,Palo Verde,33.3881,-112.8617,paloverde
+Palo Verde 3,paloverde3,Palo Verde 3,05000530,PWR,1988-01-08,NRC operating workbook,6008,Palo Verde,33.3881,-112.8617,paloverde
+Peach Bottom 2,peachbottom2,Peach Bottom 2,05000277,BWR,1974-07-05,NRC operating workbook,3166,Peach Bottom,39.758936,-76.268742,peachbottom
+Peach Bottom 3,peachbottom3,Peach Bottom 3,05000278,BWR,1974-12-23,NRC operating workbook,3166,Peach Bottom,39.758936,-76.268742,peachbottom
+Perry 1,perry1,Perry 1,05000440,BWR,1987-11-18,NRC operating workbook,6020,Perry,41.8006,-81.1439,perry
+Point Beach 1,pointbeach1,Point Beach 1,05000266,PWR,1970-12-21,NRC operating workbook,4046,Point Beach Nuclear Plant,44.2806,-87.5369,pointbeach
+Point Beach 2,pointbeach2,Point Beach 2,05000301,PWR,1972-10-01,NRC operating workbook,4046,Point Beach Nuclear Plant,44.2806,-87.5369,pointbeach
+Prairie Island 1,prairieisland1,Prairie Island 1,05000282,PWR,1973-12-16,NRC operating workbook,1925,Prairie Island,44.622,-92.6333,prairieisland
+Prairie Island 2,prairieisland2,Prairie Island 2,05000306,PWR,1974-12-21,NRC operating workbook,1925,Prairie Island,44.622,-92.6333,prairieisland
+Quad Cities 1,quadcities1,Quad Cities 1,05000254,BWR,1973-02-18,NRC operating workbook,880,Quad Cities Generating Station,41.726111,-90.310278,quadcities
+Quad Cities 2,quadcities2,Quad Cities 2,05000265,BWR,1973-03-10,NRC operating workbook,880,Quad Cities Generating Station,41.726111,-90.310278,quadcities
+River Bend Station 1,riverbend1,River Bend 1,05000458,BWR,1986-06-16,NRC operating workbook,6462,River Bend,30.757,-91.3327,riverbend
+Robinson 2,robinson2,Robinson 2,05000261,PWR,1971-03-07,NRC operating workbook,3251,H B Robinson,34.4017,-80.1589,robinson
+Saint Lucie 1,saintlucie1,Saint Lucie 1,05000335,PWR,1976-12-21,NRC operating workbook,6045,St Lucie,27.348611,-80.246389,saintlucie
+Saint Lucie 2,saintlucie2,Saint Lucie 2,05000389,PWR,1983-08-08,NRC operating workbook,6045,St Lucie,27.348611,-80.246389,saintlucie
+Salem 1,salem1,Salem 1,05000272,PWR,1977-06-30,NRC operating workbook,2410,PSEG Salem Generating Station,39.4625,-75.5358,salemhopecreek
+Salem 2,salem2,Salem 2,05000311,PWR,1981-10-13,NRC operating workbook,2410,PSEG Salem Generating Station,39.4625,-75.5358,salemhopecreek
+Seabrook 1,seabrook1,Seabrook 1,05000443,PWR,1990-08-19,NRC operating workbook,6115,Seabrook,42.899167,-70.848889,seabrook
+Sequoyah 1,sequoyah1,Sequoyah 1,05000327,PWR,1981-07-01,NRC operating workbook,6152,Sequoyah,35.2267,-85.0917,sequoyah
+Sequoyah 2,sequoyah2,Sequoyah 2,05000328,PWR,1982-06-01,NRC operating workbook,6152,Sequoyah,35.2267,-85.0917,sequoyah
+South Texas 1,southtexas1,South Texas 1,05000498,PWR,1988-08-25,NRC operating workbook,6251,South Texas Project,28.795,-96.0481,southtexas
+South Texas 2,southtexas2,South Texas 2,05000499,PWR,1989-06-19,NRC operating workbook,6251,South Texas Project,28.795,-96.0481,southtexas
+Summer,summer,Summer,05000395,PWR,1984-01-01,NRC operating workbook,6127,V C Summer,34.2983,-81.3153,summer
+Surry 1,surry1,Surry 1,05000280,PWR,1972-12-22,NRC operating workbook,3806,Surry,37.1661,-76.6986,surry
+Surry 2,surry2,Surry 2,05000281,PWR,1973-05-01,NRC operating workbook,3806,Surry,37.1661,-76.6986,surry
+Susquehanna 1,susquehanna1,Susquehanna 1,05000387,BWR,1983-06-08,NRC operating workbook,6103,TalenEnergy Susquehanna,41.0919,-76.1462,susquehanna
+Susquehanna 2,susquehanna2,Susquehanna 2,05000388,BWR,1985-02-12,NRC operating workbook,6103,TalenEnergy Susquehanna,41.0919,-76.1462,susquehanna
+Three Mile Island 1,threemileisland1,Three Mile Island 1,05000289,PWR,,NRC decommissioning workbook,8011,Three Mile Island,40.1515,-76.7232,threemileisland
+Turkey Point 3,turkeypoint3,Turkey Point 3,05000250,PWR,1972-12-14,NRC operating workbook,621,Turkey Point,25.4356,-80.3308,turkeypoint
+Turkey Point 4,turkeypoint4,Turkey Point 4,05000251,PWR,1973-09-07,NRC operating workbook,621,Turkey Point,25.4356,-80.3308,turkeypoint
+Vogtle 1,vogtle1,Vogtle 1,05000424,PWR,1987-06-01,NRC operating workbook,649,Vogtle,33.1427,-81.7625,vogtle
+Vogtle 2,vogtle2,Vogtle 2,05000425,PWR,1989-05-20,NRC operating workbook,649,Vogtle,33.1427,-81.7625,vogtle
+Waterford 3,waterford3,Waterford 3,05000382,PWR,1985-09-24,NRC operating workbook,4270,Waterford 3,29.995267,-90.471581,waterford
+Watts Bar 1,wattsbar1,Watts Bar 1,05000390,PWR,1996-05-27,NRC operating workbook,7722,Watts Bar Nuclear Plant,35.6021,-84.7895,wattsbar
+Watts Bar 2,wattsbar2,Watts Bar 2,05000391,PWR,2016-10-19,NRC operating workbook,7722,Watts Bar Nuclear Plant,35.6021,-84.7895,wattsbar
+Wolf Creek 1,wolfcreek1,Wolf Creek 1,05000482,PWR,1985-09-03,NRC operating workbook,210,Wolf Creek Generating Station,38.23926,-95.68978,wolfcreek
+Pilgrim 1,pilgrim1,Pilgrim 1,05000293,BWR,,NRC SCRAM unit identifier,1590,Pilgrim Nuclear Power Station,41.9438,-70.578,pilgrim
+River Bend 1,riverbend1,River Bend 1,05000458,BWR,1986-06-16,NRC operating workbook,6462,River Bend,30.757,-91.3327,riverbend
+Oyster Creek,oystercreek,Oyster Creek,05000219,BWR,,NRC decommissioning workbook,,,,,oystercreek
+Vogtle 3,vogtle3,Vogtle 3,05200025,PWR,,NRC operating workbook,649,Vogtle,33.1427,-81.7625,vogtle
+Vogtle 4,vogtle4,Vogtle 4,05200026,PWR,,NRC SCRAM unit identifier,649,Vogtle,33.1427,-81.7625,vogtle

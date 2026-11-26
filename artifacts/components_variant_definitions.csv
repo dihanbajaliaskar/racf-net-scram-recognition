@@ -1,0 +1,8 @@
+Variant,Retraining,Changed setting,Numerical agents,Inter-agent exchange,Conditional reconstruction,Shared temporal representation,Expert input columns,Training rows
+RACF-Net (reference),Frozen reference,No change (frozen reference),Yes (51),"Yes (≤ 3 related predictors, 1 round)",Yes,Yes,365,87425
+Without numerical agents,"Adapter, agents, encoder and expert refitted (40 epochs)",agents_enabled = False,No (messages fixed at zero),No,Yes,Yes,365,87425
+Without exchange between agents,"Adapter, agents, encoder and expert refitted (40 epochs)",peer_exchange = False,Yes (51),No,Yes,Yes,365,87425
+Without conditional reconstruction,"Adapter, agents, encoder and expert refitted (40 epochs)",repair = False,Yes (51),Yes,No,Yes,365,87425
+Without shared temporal representation,Expert refitted; encoder and agents fixed,Expert inputs removed: latent__,Yes (51),Yes,Yes,No (removed from expert inputs),333,87425
+Without direct quality inputs,Expert refitted; encoder and agents fixed,Expert inputs removed: quality__,Yes (51),Yes,Yes,Yes,311,87425
+Without direct action inputs,Expert refitted; encoder and agents fixed,"Expert inputs removed: repair_action__, repair_change__",Yes (51),Yes,Yes,Yes,263,87425

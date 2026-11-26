@@ -1,0 +1,10 @@
+Family,Metric,Comparator,Effect,Lower 95%,Upper 95%,p raw,Valid draws,Undefined draw fraction,Status,p Holm,Positive difference supported,Family size
+Secondary components,AP,no_agents,-0.007985730883134146,-0.02826141941882394,0.019945231070213773,0.5147426286856571,2000,0.0,Historical exploratory comparison,1.0,False,9
+Secondary components,AP,no_peer,-0.0013777512711388162,-0.025551935028184404,0.02489191882105829,0.9085457271364318,2000,0.0,Historical exploratory comparison,1.0,False,9
+Secondary components,AP,new_mechanism_off,Not estimable,Not estimable,Not estimable,Not estimable,0,Not estimable,Not applicable: no new mechanism retained,Not estimable,False,9
+Secondary components,F1,no_agents,0.016496658071470938,0.005865636470067645,0.028877732031356886,0.0074962518740629685,2000,0.0,Historical exploratory comparison,0.05997001499250375,False,9
+Secondary components,F1,no_peer,0.011047703633946915,0.0016571852094195622,0.021144943677652298,0.026986506746626688,2000,0.0,Historical exploratory comparison,0.16191904047976013,False,9
+Secondary components,F1,new_mechanism_off,Not estimable,Not estimable,Not estimable,Not estimable,0,Not estimable,Not applicable: no new mechanism retained,Not estimable,False,9
+Secondary components,MCC,no_agents,0.016548374254066522,0.006526163364800333,0.02716739436943573,0.004497751124437781,2000,0.0,Historical exploratory comparison,0.04047976011994003,True,9
+Secondary components,MCC,no_peer,0.011472344605453322,0.002405604152674076,0.020277533525862847,0.01249375312343828,2000,0.0,Historical exploratory comparison,0.08745627186406796,False,9
+Secondary components,MCC,new_mechanism_off,Not estimable,Not estimable,Not estimable,Not estimable,0,Not estimable,Not applicable: no new mechanism retained,Not estimable,False,9

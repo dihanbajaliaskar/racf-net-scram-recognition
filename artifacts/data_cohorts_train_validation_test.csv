@@ -1,0 +1,4 @@
+Cohort,First date,Last date,Reactor-days,SCRAM days,SCRAM episodes,Physical sites,Sites with SCRAM
+Train 2019–2021,2019-01-30,2021-12-31,87425,133,130,57,48
+Validation 2022,2022-01-31,2022-12-31,19020,35,35,51,23
+Test 2023,2023-01-31,2023-12-31,20333,42,42,50,27

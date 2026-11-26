@@ -1,0 +1,5 @@
+Model,Registered candidate,Input adapter repair,Numerical agents,Final estimator,Trees,Clean-view mass,Positive weight
+RACF-Net,2,True,True,LightGBM expert,800,0.75,1.0
+Matched CatBoost,5,True,False,CatBoost,800,0.5,1.0
+Matched LightGBM,9,True,False,LightGBM,1200,0.75,1.0
+Matched TCN,7,True,False,Neural event head,n/a (neural),0.75,8.0

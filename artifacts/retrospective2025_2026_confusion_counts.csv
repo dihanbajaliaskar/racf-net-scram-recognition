@@ -1,0 +1,17 @@
+Year,Model,TP,FP,FN,TN
+2025,RACF-Net,37,14,0,19186
+2025,CatBoost,37,33,0,19167
+2025,LightGBM,37,18,0,19182
+2025,TCN,35,13,2,19187
+2025,Without numerical agents,37,16,0,19184
+2025,Without peer exchange,37,14,0,19186
+2025,Fixed full–no-agent mixture,36,12,1,19188
+2025,Fixed LightGBM–TCN mixture,37,16,0,19184
+2026,RACF-Net,11,2,2,12109
+2026,CatBoost,11,2,2,12109
+2026,LightGBM,11,3,2,12108
+2026,TCN,11,2,2,12109
+2026,Without numerical agents,11,2,2,12109
+2026,Without peer exchange,11,2,2,12109
+2026,Fixed full–no-agent mixture,11,2,2,12109
+2026,Fixed LightGBM–TCN mixture,11,2,2,12109
